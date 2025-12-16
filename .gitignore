@@ -1,0 +1,44 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Logs / local data
+*.log
+*.sqlite
+
+# VS Code
+.vscode/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+
+# Generated JSON data
+data/*.json
+
+# Local DB
+pirate_activity.db
+
+# local caches / db
+scripts/decoded_cache
+scripts/pirate_activity.db
+
+# databases
+*.db
+*.sqlite
+*.sqlite3
+scripts/decoded_cache
+scripts/pirate_activity.db

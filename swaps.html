@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atomic Swaps</title>
+  <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+  <div>
+    <img class="logo" src="static/pirate_logo.svg" />
+  </div>
+  <main class="page">
+    <div style="display:flex;justify-content:center;margin-bottom:16px;">
+      <div class="page-toggle swap-active" data-current="swaps">
+        <button class="toggle-option" data-target="index.html">Transactions</button>
+        <button class="toggle-option active" data-target="swaps.html">Atomic Swaps</button>
+        <div class="toggle-thumb"></div>
+      </div>
+    </div>
+
+    <section class="panel">
+      <div class="chart-header">
+        <div>
+          <h2>Daily Activity</h2>
+          <p class="muted">Lines: swap counts. Bars: ARRR swapped (daily sum).</p>
+        </div>
+        <div id="summary-badges" class="badges"></div>
+      </div>
+      <div class="chart-area">
+        <canvas id="swapChart"></canvas>
+      </div>
+      <nav class="timeframe-picker" id="timeframe-picker" style="margin-top:12px;">
+        <button data-range="7">7d</button>
+        <button data-range="30" class="active">30d</button>
+        <button data-range="60">60d</button>
+        <button data-range="90">90d</button>
+        <button data-range="180">180d</button>
+        <button data-range="365">1y</button>
+        <button data-range="all">All</button>
+      </nav>
+    </section>
+
+    <section class="panel">
+      <h2>Period Summary</h2>
+      <div id="summary-table" class="summary-table"></div>
+    </section>
+
+    <div>
+      <img class="p-logo" src="static/p.svg" />
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="static/script.js"></script>
+</body>
+</html>

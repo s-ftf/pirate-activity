@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text y=%22.9em%22 font-size=%2290%22&gt;🏴‍☠️&lt;/text&gt;&lt;/svg&gt;">
+  <title>Pirate Activity</title>
+  <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+  <div>
+    <img class="logo" src="static/pirate_logo.svg" />
+  </div>
+  <main class="page">
+    <div style="display:flex;justify-content:center;margin-bottom:16px;">
+      <div class="page-toggle" data-current="transactions">
+        <button class="toggle-option active" data-target="index.html">Transactions</button>
+        <button class="toggle-option" data-target="swaps.html">Atomic Swaps</button>
+        <div class="toggle-thumb"></div>
+      </div>
+    </div>
+    <section class="panel">
+      <div class="chart-header">
+        <div>
+          <h2>Network Activity</h2>
+          <p class="muted">Lines: total tx count. Bars: total tx fees.</p>
+        </div>
+        <div id="activity-badges" class="badges"></div>
+      </div>
+      <div class="pill-filters" id="activity-filters"></div>
+      <div class="chart-area" style="margin-top:12px;">
+        <canvas id="activityChart"></canvas>
+      </div>
+      <nav class="timeframe-picker" id="activity-timeframe" style="margin-top:12px;">
+        <button data-range="7">7d</button>
+        <button data-range="30" class="active">30d</button>
+        <button data-range="60">60d</button>
+        <button data-range="90">90d</button>
+        <button data-range="180">180d</button>
+        <button data-range="365">1y</button>
+        <button data-range="all">All</button>
+      </nav>
+    </section>
+
+    <section class="panel">
+      <h2>Period Summary</h2>
+      <div id="activity-cards" class="summary-cards"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Transaction Metrics</h2>
+      <div id="activity-table" class="table-responsive"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Miner Snapshot</h2>
+      <div id="miners-table" class="table-vertical-scroll scroll-dark"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Notary Snapshot</h2>
+      <div id="notaries-table" class="table-vertical-scroll scroll-dark"></div>
+    </section>
+
+    <div>
+      <img class="p-logo" src="static/p.svg" />
+    </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="static/script.js"></script>
+</body>
+</html>
