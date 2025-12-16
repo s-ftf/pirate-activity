@@ -39,3 +39,6 @@ scripts/pirate_activity.db
 *.sqlite3
 scripts/decoded_cache
 scripts/pirate_activity.db
+
+# local config
+scripts/config.py
