@@ -1,0 +1,2386 @@
+[
+  {
+    "address": "RSMDNNEUvCRii6ebwJJRt2D1zucW4Sf5M9",
+    "name": "smdmitry_EU",
+    "tx_count": 81967,
+    "total_arrr": 13709.38121402,
+    "total_fee": 22.30951381999992,
+    "last_seen": 1765856958
+  },
+  {
+    "address": "RWi9bbzESq1UBYdXsEBKZCRj41V5nwuP23",
+    "name": "core_DEV",
+    "tx_count": 46492,
+    "total_arrr": 780495.76669752,
+    "total_fee": 12.998915049948636,
+    "last_seen": 1765857083
+  },
+  {
+    "address": "RTMSZ28BvFvy9eGE8FTSstX1APXMXimXdN",
+    "name": "cipi_EU",
+    "tx_count": 37166,
+    "total_arrr": 4148.31957274,
+    "total_fee": 8.591104220000036,
+    "last_seen": 1765842666
+  },
+  {
+    "address": "RALiENAgeHExyyEnBARdZdwWbHWokoUbtc",
+    "name": "alien_EU",
+    "tx_count": 29010,
+    "total_arrr": 45541.63929139,
+    "total_fee": 2.335003080000736,
+    "last_seen": 1765850479
+  },
+  {
+    "address": "RWvfkt8UjbPWXgeZEcgYmKw2vA1bbAx5t2",
+    "name": "chmex_EU",
+    "tx_count": 28345,
+    "total_arrr": 34269.937154700005,
+    "total_fee": 3.7732048199990245,
+    "last_seen": 1765857083
+  },
+  {
+    "address": "RDZaLiENRUnckP57oRxLznYmFM5bV9PaZV",
+    "name": "alien_NA",
+    "tx_count": 28093,
+    "total_arrr": 41211.4829362,
+    "total_fee": 2.091365400000657,
+    "last_seen": 1765855603
+  },
+  {
+    "address": "RP4bAeJGc6b21J6UA4TqNRr6hdiGTALien",
+    "name": "alienx_NA",
+    "tx_count": 25448,
+    "total_arrr": 71002.8132019,
+    "total_fee": 2.1020877999987153,
+    "last_seen": 1765853666
+  },
+  {
+    "address": "RMKfy7zjSvvKgC7tQReYrRSFfEFFGkZkFc",
+    "name": "chmex_NA",
+    "tx_count": 20828,
+    "total_arrr": 19371.00508214,
+    "total_fee": 2.7097411899997823,
+    "last_seen": 1765855401
+  },
+  {
+    "address": "RGayMoe7ptHwmAfVcDsZPnrxM4EsW1REMy",
+    "name": "cipi_NA",
+    "tx_count": 17625,
+    "total_arrr": 3954.16401839,
+    "total_fee": 2.7945495600000196,
+    "last_seen": 1765843244
+  },
+  {
+    "address": "RALienLQZxF5JeJxWyLfFTw5Y3ohmdU4gU",
+    "name": "alienx_EU",
+    "tx_count": 16639,
+    "total_arrr": 19072.53626293,
+    "total_fee": 1.2059684000003628,
+    "last_seen": 1765855603
+  },
+  {
+    "address": "RGCCcjSkszZNMMfH9fRcY1MHc5CHWbt6gQ",
+    "name": "who-biz_NA",
+    "tx_count": 15878,
+    "total_arrr": 6414.95254837,
+    "total_fee": 0.1753340400001854,
+    "last_seen": 1729545620
+  },
+  {
+    "address": "RWVt3CDvXXAw5NeyMrjUC8s7YssAJ9j4A4",
+    "name": "dwy_EU",
+    "tx_count": 12511,
+    "total_arrr": 43275.76416345,
+    "total_fee": 4.019658519965433,
+    "last_seen": 1562977701
+  },
+  {
+    "address": "RVHD1uRBksEw12cwQaAzW7HxeGcHRpnHnm",
+    "name": "peer2cloud_AR",
+    "tx_count": 12362,
+    "total_arrr": 8215.22796217,
+    "total_fee": 3.469942260000117,
+    "last_seen": 1593141599
+  },
+  {
+    "address": "RKrkipUqx8LR18JcBVQUZWzuZsZh5eXqVC",
+    "name": "smdmitry_AR",
+    "tx_count": 9521,
+    "total_arrr": 11574.82091384,
+    "total_fee": 0.18492373999987766,
+    "last_seen": 1765558915
+  },
+  {
+    "address": "RVrtLPvKrszs7zSggTsXPYsbxc5SwALiEN",
+    "name": "alien_SH",
+    "tx_count": 9407,
+    "total_arrr": 11768.48941984,
+    "total_fee": 0.3349550000001659,
+    "last_seen": 1765853666
+  },
+  {
+    "address": "RM4YM5gPfP3ooueQxSpyv5cL7hp6xpaBik",
+    "name": "cipi_2_EU",
+    "tx_count": 9317,
+    "total_arrr": 1778.52804404,
+    "total_fee": 1.3757150199999917,
+    "last_seen": 1688050863
+  },
+  {
+    "address": "RSr6DptKeuqatusr8UYsAYcbdTYPNDREAN",
+    "name": "titomane_EU",
+    "tx_count": 8552,
+    "total_arrr": 462.6352569,
+    "total_fee": 2.5661002600000136,
+    "last_seen": 1620071057
+  },
+  {
+    "address": "RNFTgUWvx8zUsdVL56uuffiKXZTU4q45cr",
+    "name": "chmex_AR",
+    "tx_count": 7655,
+    "total_arrr": 5541.42261737,
+    "total_fee": 0.8887806800000478,
+    "last_seen": 1754454759
+  },
+  {
+    "address": "RWk4WLiAv6MKWLozJbj1jyhayKtjwbtX7M",
+    "name": "titomane_AR",
+    "tx_count": 7464,
+    "total_arrr": 4877.96715721,
+    "total_fee": 2.364919080000165,
+    "last_seen": 1563195038
+  },
+  {
+    "address": "RNsTpcUJEzn18eBP5WYH3or2zRhpXC7iae",
+    "name": "lukechilds_NA",
+    "tx_count": 7147,
+    "total_arrr": 929.0323943899999,
+    "total_fee": 1.8670288900000476,
+    "last_seen": 1592148171
+  },
+  {
+    "address": "RPqR19QwrLcuWREJSGegRcTod7Cngda4nL",
+    "name": "fullmoon_AR",
+    "tx_count": 6877,
+    "total_arrr": 276.796516,
+    "total_fee": 2.0145840000000055,
+    "last_seen": 1623681797
+  },
+  {
+    "address": "RPHBA261gwjxUw2PZH5sj7osHFRQxuFi28",
+    "name": "phba2061_EU",
+    "tx_count": 6783,
+    "total_arrr": 2986.57846011,
+    "total_fee": 1.6665510500001632,
+    "last_seen": 1592142135
+  },
+  {
+    "address": "RT6SAVW189Vw5gsLfQv5AnDcyq2WJcv1WZ",
+    "name": "etszombi_EU",
+    "tx_count": 6355,
+    "total_arrr": 311.71465048,
+    "total_fee": 2.003724109999988,
+    "last_seen": 1592167911
+  },
+  {
+    "address": "RD47yEoA4VGriqjeiLdMVKnuE7x7xqFy9r",
+    "name": "strob_NA",
+    "tx_count": 6171,
+    "total_arrr": 2771.99119363,
+    "total_fee": 0.8751481300000659,
+    "last_seen": 1656068051
+  },
+  {
+    "address": "RX8h2pcnA6QtwLSSDA6Tp1wJt9FrtxXYAa",
+    "name": "strob_SH",
+    "tx_count": 5933,
+    "total_arrr": 1739.75353991,
+    "total_fee": 1.3221482500000454,
+    "last_seen": 1763369161
+  },
+  {
+    "address": "RTyXnYR5DG8hAGGutM1W6hU9ERS6MpxTNC",
+    "name": "blackice2_AR",
+    "tx_count": 5916,
+    "total_arrr": 10424.90908662,
+    "total_fee": 0.9605159100002518,
+    "last_seen": 1765849804
+  },
+  {
+    "address": "REoEiLdFyUYQLrRa7RMdU2Jmu6LAWsUqba",
+    "name": "blackice_NA",
+    "tx_count": 5762,
+    "total_arrr": 3432.95160907,
+    "total_fee": 0.9427257399999899,
+    "last_seen": 1743634225
+  },
+  {
+    "address": "RJD5jRidYW9Cu8qxjg9HDCsx6J3A4wQ4LU",
+    "name": "karasugoi_NA",
+    "tx_count": 5650,
+    "total_arrr": 8083.1012924,
+    "total_fee": 1.8006202300000107,
+    "last_seen": 1592141861
+  },
+  {
+    "address": "RUpKSrE4y858KuF6ncnAfuiDXE3fzDyM5Q",
+    "name": "fediakash_AR",
+    "tx_count": 5632,
+    "total_arrr": 4744.48709828,
+    "total_fee": 0.7369552999999133,
+    "last_seen": 1765547719
+  },
+  {
+    "address": "RFLAoVF6v2T79rfMK45BN3qdurgqrGCY3b",
+    "name": "pirate_EU",
+    "tx_count": 5558,
+    "total_arrr": 285.03120675,
+    "total_fee": 1.7292281100000015,
+    "last_seen": 1624562976
+  },
+  {
+    "address": "RSMD2ARiCx4jPEEUCrwdpgM5vwU6PngpqC",
+    "name": "smdmitry2_AR",
+    "tx_count": 5555,
+    "total_arrr": 4330.89808932,
+    "total_fee": 0.3280009800001577,
+    "last_seen": 1765849352
+  },
+  {
+    "address": "RE1NaK7Bp5Xy127nbFLmu4QVxPPnQkoe4h",
+    "name": "cipi_AR",
+    "tx_count": 5528,
+    "total_arrr": 2102.35000707,
+    "total_fee": 0.05178594000001965,
+    "last_seen": 1765836045
+  },
+  {
+    "address": "RMadEU8A8anN621y84fqfqNQJVyTXs6ZkE",
+    "name": "madmax_EU",
+    "tx_count": 5174,
+    "total_arrr": 650.91400137,
+    "total_fee": 1.3935704499999935,
+    "last_seen": 1623676499
+  },
+  {
+    "address": "RAusaHRqdMmML3szif3Wai1ZSEWCyu7X9Y",
+    "name": "thegaltmines_NA",
+    "tx_count": 5004,
+    "total_arrr": 4357.76354194,
+    "total_fee": 1.550913879999668,
+    "last_seen": 1563201441
+  },
+  {
+    "address": "R9cDRNczdp7GCv6X38juh6dDQXUvXNqPG2",
+    "name": "colmapol_EU",
+    "tx_count": 4954,
+    "total_arrr": 2569.29725167,
+    "total_fee": 0.6806205800000554,
+    "last_seen": 1765834514
+  },
+  {
+    "address": "RAAY3StQqMoxdQgrVbnYevadvcsCxwTj11",
+    "name": "blackice_AR",
+    "tx_count": 4952,
+    "total_arrr": 3972.45904707,
+    "total_fee": 0.7942617199999953,
+    "last_seen": 1765841061
+  },
+  {
+    "address": "RW5wUWWiBmYaXJHNLvMUmvTw5hWcNCxK7a",
+    "name": "blackice_DEV",
+    "tx_count": 4856,
+    "total_arrr": 402221.43053272006,
+    "total_fee": 0.7871454299749963,
+    "last_seen": 1688130650
+  },
+  {
+    "address": "RWQrQd6MiuW5Eqqv9E8JE6arLQVZ4q8pSS",
+    "name": "daemonfox_NA",
+    "tx_count": 4766,
+    "total_arrr": 496.716332,
+    "total_fee": 1.2133680000000016,
+    "last_seen": 1621882844
+  },
+  {
+    "address": "RTm4RWXHAT5xUAKYFRzEwhXYhiMjerWZpX",
+    "name": "blackice_EU",
+    "tx_count": 4727,
+    "total_arrr": 1410.4990102900001,
+    "total_fee": 0.8765549399999987,
+    "last_seen": 1688127678
+  },
+  {
+    "address": "RHoceanFVZTqKmzfNG1vYAbdPfdT5ZN8dX",
+    "name": "ocean_AR",
+    "tx_count": 4592,
+    "total_arrr": 1845.92679234,
+    "total_fee": 0.8091075599999908,
+    "last_seen": 1708606062
+  },
+  {
+    "address": "RLKHdM3qeTqFEiSXyUbQuWcmDmvGStefqX",
+    "name": "titomane_SH",
+    "tx_count": 4528,
+    "total_arrr": 130.21295932,
+    "total_fee": 1.4211000199999941,
+    "last_seen": 1620780399
+  },
+  {
+    "address": "RQq6fWoy8aGGMLjvRfMY5mBNVm2RQxJyLa",
+    "name": "cryptoeconomy_EU",
+    "tx_count": 4466,
+    "total_arrr": 246.43488957,
+    "total_fee": 1.4437058600000114,
+    "last_seen": 1591849775
+  },
+  {
+    "address": "RM4bX8ojaCUoz3iFerWSdsM2HCDSmZttpN",
+    "name": "mcrypt_NA",
+    "tx_count": 4369,
+    "total_arrr": 4515.21728679,
+    "total_fee": 0.7426404000001451,
+    "last_seen": 1765851893
+  },
+  {
+    "address": "RAuRSFQi7UhGLda1wCgTes7TyK55BC9yn9",
+    "name": "who-biz_NA",
+    "tx_count": 4309,
+    "total_arrr": 1349.59811025,
+    "total_fee": 0.26804700000004816,
+    "last_seen": 1740183124
+  },
+  {
+    "address": "RVanEUxUaumVoFvUcwkdyWjRUvaGW71hVT",
+    "name": "van_EU",
+    "tx_count": 4292,
+    "total_arrr": 1344.37470537,
+    "total_fee": 0.6364215699999892,
+    "last_seen": 1743672039
+  },
+  {
+    "address": "RMqbQz4NPNbG15QBwy9EFvLn4NX5Fa7w5g",
+    "name": "indenodes_NA",
+    "tx_count": 4226,
+    "total_arrr": 2007.3110497,
+    "total_fee": 1.3156723300000268,
+    "last_seen": 1616682162
+  },
+  {
+    "address": "RMiPhr6mSkHG4nVY7QAUMLAsyKtAi4V6De",
+    "name": "webworker01_NA",
+    "tx_count": 4011,
+    "total_arrr": 22026.55499819,
+    "total_fee": 0.7579235599999966,
+    "last_seen": 1685407280
+  },
+  {
+    "address": "R9QfbhMxnSsFwM7DwW6fDh4GU9wUnQkwJk",
+    "name": "blackice_AR",
+    "tx_count": 3837,
+    "total_arrr": 1812.78787554,
+    "total_fee": 0.6225650500000808,
+    "last_seen": 1688150707
+  },
+  {
+    "address": "RKJPFfQSWwsVrTWSis4VGvWQYnrQFkEB3Q",
+    "name": "blackice_EU",
+    "tx_count": 3810,
+    "total_arrr": 2532.05112482,
+    "total_fee": 0.6110813300000271,
+    "last_seen": 1739055632
+  },
+  {
+    "address": "RPHbA2o61qxMcJojBpXHeJ9QFFUV32A4KD",
+    "name": "phba2061_EU",
+    "tx_count": 3733,
+    "total_arrr": 918.38388472,
+    "total_fee": 0.39978691000004035,
+    "last_seen": 1621851128
+  },
+  {
+    "address": "RJdoxr1CeY2wXobq59VJbMrBMcsm7ZxuB1",
+    "name": "madmax_NA",
+    "tx_count": 3513,
+    "total_arrr": 1331.52859572,
+    "total_fee": 0.9540545999999694,
+    "last_seen": 1592157084
+  },
+  {
+    "address": "RNodeoneVvobNszdKfGFrwrRV8NvdeHZUa",
+    "name": "nodeone_NA",
+    "tx_count": 3485,
+    "total_arrr": 1271.61019161,
+    "total_fee": 0.2053006700000193,
+    "last_seen": 1724904020
+  },
+  {
+    "address": "RD2uPC7aUkX9tQTYgRvDb2HQPWa22VttEE",
+    "name": "cipi_NA",
+    "tx_count": 3160,
+    "total_arrr": 14356.049018059999,
+    "total_fee": 0.35866994999960294,
+    "last_seen": 1592143232
+  },
+  {
+    "address": "RVUbBALnhgeCShvEtHQ3FznNNrmwNxu4Ha",
+    "name": "ptyx_NA",
+    "tx_count": 3142,
+    "total_arrr": 967.7935437399999,
+    "total_fee": 0.6518180000000505,
+    "last_seen": 1656243884
+  },
+  {
+    "address": "RLd2y5XN9ignMvFEaZjEZwPLi9nRmq5sv5",
+    "name": "pirate_NA",
+    "tx_count": 3129,
+    "total_arrr": 596.67361285,
+    "total_fee": 0.9553962799999862,
+    "last_seen": 1592170665
+  },
+  {
+    "address": "RVNQWLPdPG1AabQvzmwGpE5pxd1Yt8SkYL",
+    "name": "chmex_SH",
+    "tx_count": 3021,
+    "total_arrr": 1582.12652667,
+    "total_fee": 0.39363016000000417,
+    "last_seen": 1756102791
+  },
+  {
+    "address": "RCGxNA1xHinKkcC6gf7BpxAt3wLeqcpch4",
+    "name": "computergenie_NA",
+    "tx_count": 2984,
+    "total_arrr": 2290.8607219699998,
+    "total_fee": 1.3426578400000642,
+    "last_seen": 1725066004
+  },
+  {
+    "address": "RQxfyScivdSERChE2vYT9oFA7dWQzzPR4K",
+    "name": "chmexvet_SH",
+    "tx_count": 2912,
+    "total_arrr": 1572.7996077,
+    "total_fee": 0.40032343000004406,
+    "last_seen": 1765850993
+  },
+  {
+    "address": "RUc5sa136Agwb9dSfMKn1oc7myHkUzeZf4",
+    "name": "jackson_AR",
+    "tx_count": 2872,
+    "total_arrr": 8387.814880349999,
+    "total_fee": 0.7007171900002224,
+    "last_seen": 1557792723
+  },
+  {
+    "address": "REs2WViKi4ZUKthC4dUgRBrocRet4TczS5",
+    "name": "cipi_EU",
+    "tx_count": 2768,
+    "total_arrr": 762.795516,
+    "total_fee": 0.3219840000000069,
+    "last_seen": 1623687920
+  },
+  {
+    "address": "RPJrNnXwNjmppCTZSpkxEyr4eQvszJwyqG",
+    "name": "peer2cloud_AR",
+    "tx_count": 2728,
+    "total_arrr": 3708.36538502,
+    "total_fee": 0.46866400000015385,
+    "last_seen": 1623677480
+  },
+  {
+    "address": "RXiZTJJGbkVH69THmQiZHdz5VE22oXNiF5",
+    "name": "mcrypt_SH",
+    "tx_count": 2631,
+    "total_arrr": 1704.44255465,
+    "total_fee": 0.35990072000005313,
+    "last_seen": 1724878565
+  },
+  {
+    "address": "RJtv718xd79fE8NmbCprdVLa85jUbmos35",
+    "name": "dappvader_SH",
+    "tx_count": 2601,
+    "total_arrr": 264.31925,
+    "total_fee": 0.6962300000000092,
+    "last_seen": 1623681114
+  },
+  {
+    "address": "RH2Tuan5wt9x19aBPgTHPtkh2koWCEsjEK",
+    "name": "peer2cloud_AR",
+    "tx_count": 2523,
+    "total_arrr": 12081.86382835,
+    "total_fee": 0.3653541399997527,
+    "last_seen": 1563148238
+  },
+  {
+    "address": "RCGxEU1xmrKcHyxoKpKqCDBS4EH537gVis",
+    "name": "computergenie_EU",
+    "tx_count": 2496,
+    "total_arrr": 751.25420313,
+    "total_fee": 0.4637216600000017,
+    "last_seen": 1723719936
+  },
+  {
+    "address": "RAtXFwGsgtsHJGuKhJBMbB8vri3SRVQYeu",
+    "name": "fullmoon_AR",
+    "tx_count": 2363,
+    "total_arrr": 5698.61575026,
+    "total_fee": 0.6488751299995796,
+    "last_seen": 1563299286
+  },
+  {
+    "address": "RLF3sBrXAdofwDnS2114mkBMSBeJDd5Doy",
+    "name": "chainmakers_NA",
+    "tx_count": 2355,
+    "total_arrr": 5856.96676976,
+    "total_fee": 0.9027649199997263,
+    "last_seen": 1562369228
+  },
+  {
+    "address": "RMadARhi95fLR3h6tGdnsZAJdswUnq54oD",
+    "name": "madmax_AR",
+    "tx_count": 2346,
+    "total_arrr": 420.42950248,
+    "total_fee": 0.5732244299999874,
+    "last_seen": 1655486452
+  },
+  {
+    "address": "RGdxqk4hSBtGX9XxdBNMEKuupigrPra5Ju",
+    "name": "pbca26_NA",
+    "tx_count": 2112,
+    "total_arrr": 205.067886,
+    "total_fee": 0.4623840000000039,
+    "last_seen": 1656085849
+  },
+  {
+    "address": "RWaZ8yDea2j5peA6J5ftC1huPywxK66X2s",
+    "name": "mcrypt_AR",
+    "tx_count": 2106,
+    "total_arrr": 458.89657753,
+    "total_fee": 0.3423644300000122,
+    "last_seen": 1687557514
+  },
+  {
+    "address": "RSp8vhyL6hN3yqn5V1qje62pBgBE9fv3Eh",
+    "name": "peer2cloud_SH",
+    "tx_count": 2092,
+    "total_arrr": 12729.74959916,
+    "total_fee": 0.29623214000025966,
+    "last_seen": 1563208873
+  },
+  {
+    "address": "RBZxvAMqt1QhkvmiMRqDGRBW9QaQjqPEpF",
+    "name": "cipi_AR",
+    "tx_count": 2061,
+    "total_arrr": 516147.38628262,
+    "total_fee": 0.2214559000029237,
+    "last_seen": 1592141427
+  },
+  {
+    "address": "RPxsaGNqTKzPnbm5q7QXwu7b6EZWuLxJG3",
+    "name": "lukechilds_AR",
+    "tx_count": 2028,
+    "total_arrr": 12159.57505854,
+    "total_fee": 0.3053214400003359,
+    "last_seen": 1563148238
+  },
+  {
+    "address": "RYY4ajQfC4GE6WA8wn5wR7BYdJDbCC7H2x",
+    "name": "chmex_EU",
+    "tx_count": 1999,
+    "total_arrr": 131037.3483618,
+    "total_fee": 0.3291907899966724,
+    "last_seen": 1592139157
+  },
+  {
+    "address": "RSMDSHtX6f26fsi9dPY4WdCoF9zJygYLoE",
+    "name": "smdmitry_SH",
+    "tx_count": 1983,
+    "total_arrr": 2260.30217754,
+    "total_fee": 0.15047264000013472,
+    "last_seen": 1765324656
+  },
+  {
+    "address": "RPknkGAHMwUBvfKQfvw9FyatTZzicSiN4y",
+    "name": "indenodes_EU",
+    "tx_count": 1926,
+    "total_arrr": 6339.859045300001,
+    "total_fee": 0.6090272099995792,
+    "last_seen": 1619167318
+  },
+  {
+    "address": "RDRaGoN9vkRfzd9nP6VbTUrAoo3jgib2ec",
+    "name": "dragonhound_NA",
+    "tx_count": 1920,
+    "total_arrr": 1165.11844259,
+    "total_fee": 0.2188000299999394,
+    "last_seen": 1688251210
+  },
+  {
+    "address": "RMadNAkTf4Ziwk5WPb9NjifhLWTRqr291g",
+    "name": "madmax_NA",
+    "tx_count": 1919,
+    "total_arrr": 846.74474786,
+    "total_fee": 0.4349065199999933,
+    "last_seen": 1656031944
+  },
+  {
+    "address": "RCkkWuQRW8eXinaHZjPPbS4q69iVPwKqQQ",
+    "name": "node9_EU",
+    "tx_count": 1830,
+    "total_arrr": 651.734013,
+    "total_fee": 0.3256102199999858,
+    "last_seen": 1623668428
+  },
+  {
+    "address": "RRay7N4rknsCgZ84Qj66AZz7pGt5phitsH",
+    "name": "phit_SH",
+    "tx_count": 1810,
+    "total_arrr": 683.17851414,
+    "total_fee": 0.4768969200000522,
+    "last_seen": 1688497009
+  },
+  {
+    "address": "RKCoKMBMjsnLPbSiCyormES6gRDzW3HtS8",
+    "name": "swisscertifiers_EU",
+    "tx_count": 1783,
+    "total_arrr": 517.58067994,
+    "total_fee": 0.4499121200000366,
+    "last_seen": 1619174225
+  },
+  {
+    "address": "RKUz1GrTmY7B6FGUtM4LSywBRM9RQco3zE",
+    "name": "kmdude_SH",
+    "tx_count": 1757,
+    "total_arrr": 2558.94829899,
+    "total_fee": 0.03285586000015128,
+    "last_seen": 1765848857
+  },
+  {
+    "address": "RBYkTKQ8e7pyb6ramftn3k39j3ZctKZJ58",
+    "name": "cipi_NA",
+    "tx_count": 1746,
+    "total_arrr": 886.906078,
+    "total_fee": 0.0023220000000095382,
+    "last_seen": 1623682561
+  },
+  {
+    "address": "RKdXYhrQxB3LtwGpysGenKFHFTqSi5g7EF",
+    "name": "metaphilibert_AR",
+    "tx_count": 1711,
+    "total_arrr": 17697.85298669,
+    "total_fee": 0.5836924099999662,
+    "last_seen": 1625157016
+  },
+  {
+    "address": "RLj9h7zfnx4X9hvquR3sEwzHvcvF61W2Rc",
+    "name": "0dev2_kolo",
+    "tx_count": 1695,
+    "total_arrr": 170070.96149986002,
+    "total_fee": 0.2263500199947357,
+    "last_seen": 1588282570
+  },
+  {
+    "address": "RFh4mfseWmUBME1rXGHpnPQXPEiRjNMNDE",
+    "name": "cipi2_NA",
+    "tx_count": 1663,
+    "total_arrr": 606.48114532,
+    "total_fee": 0.022546700000020847,
+    "last_seen": 1765848658
+  },
+  {
+    "address": "RTdEgZV1QEsBTphiRRdk4FcstTBJ8wAkRX",
+    "name": "hyper_NA",
+    "tx_count": 1622,
+    "total_arrr": 3761.49436076,
+    "total_fee": 0.5325860700001116,
+    "last_seen": 1563175813
+  },
+  {
+    "address": "RMadNAGn63C3EsBJzn3UT1XfsWdSnwCDqp",
+    "name": "madmax_NA",
+    "tx_count": 1617,
+    "total_arrr": 592.05532671,
+    "total_fee": 0.30772050999998607,
+    "last_seen": 1623669079
+  },
+  {
+    "address": "RUAShFaDNpHixyp7jFZu3EWph1DtC1AHwr",
+    "name": "and1-89_EU",
+    "tx_count": 1617,
+    "total_arrr": 3407.78100127,
+    "total_fee": 0.4398205399999157,
+    "last_seen": 1588860341
+  },
+  {
+    "address": "RNa3GKy8RiVyxwQ9SSpzFY1fs4YFCD1Vzs",
+    "name": "nutellalicka_SH",
+    "tx_count": 1612,
+    "total_arrr": 2971.86550281,
+    "total_fee": 0.19661843000003162,
+    "last_seen": 1623679681
+  },
+  {
+    "address": "RQipE6ycbVVb9vCkhqrK8PGZs2p5YmiBtg",
+    "name": "indenodes_SH",
+    "tx_count": 1524,
+    "total_arrr": 1275.43068858,
+    "total_fee": 0.5120469099999997,
+    "last_seen": 1616344203
+  },
+  {
+    "address": "RJQt5dEdVMVdBZz3D8AkEsmotMatoGcTBY",
+    "name": "dimxy_DEV",
+    "tx_count": 1508,
+    "total_arrr": 2335.07000987,
+    "total_fee": 0.3027463500001094,
+    "last_seen": 1765829430
+  },
+  {
+    "address": "RMadEUh5j3fpBrBArUTTQisbUrutBUnrve",
+    "name": "madmax_EU",
+    "tx_count": 1461,
+    "total_arrr": 666.89852361,
+    "total_fee": 0.2783105599999866,
+    "last_seen": 1655870549
+  },
+  {
+    "address": "RE5LbcDGRT7naQoX8dcEG7vvnJmUK5eXhu",
+    "name": "strob_NA",
+    "tx_count": 1453,
+    "total_arrr": 540.16017459,
+    "total_fee": 0.2749484699999894,
+    "last_seen": 1592121816
+  },
+  {
+    "address": "RWZtikHgcyu6j6f96j9b1j4xPihZrT2NV4",
+    "name": "tonyl_AR",
+    "tx_count": 1446,
+    "total_arrr": 662.96577911,
+    "total_fee": 0.2585324300000311,
+    "last_seen": 1592145268
+  },
+  {
+    "address": "RV8ZLiXALiensU9YaGuJJbja1eABcwL3vY",
+    "name": "alien_AR",
+    "tx_count": 1419,
+    "total_arrr": 1662.10311357,
+    "total_fee": 0.10148380000003002,
+    "last_seen": 1765853121
+  },
+  {
+    "address": "RWRiWALUo5SUAwmkGcCDh8auzcjoue2WUK",
+    "name": "gt_AR",
+    "tx_count": 1411,
+    "total_arrr": 1678.78719204,
+    "total_fee": 0.06415006000006285,
+    "last_seen": 1592089309
+  },
+  {
+    "address": "RRgK9j7i8epdGJm5Ua1chYrHcisCu4LJ5p",
+    "name": "tonyl_DEV",
+    "tx_count": 1386,
+    "total_arrr": 484.24844594999996,
+    "total_fee": 0.2630800300000297,
+    "last_seen": 1688118187
+  },
+  {
+    "address": "RMadARbUdiakCKUR8hxiqCTeTRco8cY3Rv",
+    "name": "madmax_AR",
+    "tx_count": 1362,
+    "total_arrr": 532.36635159,
+    "total_fee": 0.25969234999998764,
+    "last_seen": 1623681114
+  },
+  {
+    "address": "RJ4ppJpmRs3DMGJoDJgYMSi1pMattZW6dw",
+    "name": "patchkez_SH",
+    "tx_count": 1305,
+    "total_arrr": 3520.24719839,
+    "total_fee": 0.22665799999985356,
+    "last_seen": 1591559500
+  },
+  {
+    "address": "RLr5mRgJhm5C55Cbf6BLHwkRNXvWGYDMjD",
+    "name": "fediakash_NA",
+    "tx_count": 1302,
+    "total_arrr": 35076.8540308,
+    "total_fee": 0.03188535000202681,
+    "last_seen": 1765804578
+  },
+  {
+    "address": "RDragoNHdwovvsDLSLMiAEzEArAD3kq6FN",
+    "name": "dragonhound_DEV",
+    "tx_count": 1297,
+    "total_arrr": 95477.46809727,
+    "total_fee": 2.9201762500014956,
+    "last_seen": 1687383630
+  },
+  {
+    "address": "RPNAXCs2FCq2Fnrt1RNPoAAbTTscjB7Hg5",
+    "name": "webworker01_EU",
+    "tx_count": 1289,
+    "total_arrr": 670.34708036,
+    "total_fee": 0.03506222000000291,
+    "last_seen": 1688119807
+  },
+  {
+    "address": "RFoSGDB7xHuu9RyrVkKcEWF6SibUk72fi9",
+    "name": "dimxy_AR",
+    "tx_count": 1273,
+    "total_arrr": 1811.4805207999998,
+    "total_fee": 0.25295034000009703,
+    "last_seen": 1765563094
+  },
+  {
+    "address": "RBp1xHCAb3XcLAV49F8wUYw3aBvhHKKEwa",
+    "name": "patchkez_SH",
+    "tx_count": 1260,
+    "total_arrr": 5502.6278880400005,
+    "total_fee": 0.21882090999994608,
+    "last_seen": 1563134228
+  },
+  {
+    "address": "RFg4SanfcFP9TPU8Qo1awJFvU4L1ow6pVR",
+    "name": "ptyx2_NA",
+    "tx_count": 1244,
+    "total_arrr": 714.14224325,
+    "total_fee": 0.02911541000001295,
+    "last_seen": 1688101890
+  },
+  {
+    "address": "RSMDNAREdddDcTVJqnYvHTJaRKRF2nVNaz",
+    "name": "smdmitry_NA",
+    "tx_count": 1240,
+    "total_arrr": 679.05465647,
+    "total_fee": 0.023131470000000282,
+    "last_seen": 1765824557
+  },
+  {
+    "address": "RMJ94af6WXmGTPNdpfvvJEkh8k4RPc1woz",
+    "name": "node-9_EU",
+    "tx_count": 1238,
+    "total_arrr": 536.05084423,
+    "total_fee": 0.23856219999998576,
+    "last_seen": 1656050737
+  },
+  {
+    "address": "RYa7pC7dNLejeu5q2Kst7Mef1VBTEoqiMD",
+    "name": "marmarachain_EU",
+    "tx_count": 1231,
+    "total_arrr": 442.28476875999996,
+    "total_fee": 0.3583847200000161,
+    "last_seen": 1765816208
+  },
+  {
+    "address": "RXcHfewhStVFTFb3ebWb1rThGfE4MrAjiK",
+    "name": "strobnidan_SH",
+    "tx_count": 1229,
+    "total_arrr": 499.02495017999996,
+    "total_fee": 0.18612050000001967,
+    "last_seen": 1687854632
+  },
+  {
+    "address": "RL9srwE4yafTRammxmGhzG8tVp6VkbKGg8",
+    "name": "goldenman_AR",
+    "tx_count": 1228,
+    "total_arrr": 235.31579301,
+    "total_fee": 0.38214600000001797,
+    "last_seen": 1656046839
+  },
+  {
+    "address": "RPvFWcMxVNoX1GeXaEc8DxqnAiwPR8zjTF",
+    "name": "webworker01_NA",
+    "tx_count": 1195,
+    "total_arrr": 18494.2197933,
+    "total_fee": 0.00015000000042797446,
+    "last_seen": 1624189252
+  },
+  {
+    "address": "RQ5JmyvjzGMxZvs2auTabXVQeuxrA2oBjy",
+    "name": "madmax_AR",
+    "tx_count": 1186,
+    "total_arrr": 8557.24855244,
+    "total_fee": 0.2017593100002771,
+    "last_seen": 1563129055
+  },
+  {
+    "address": "RD3XPkBLH5AsSUpALGcKFvXGJ3tCRbUe4L",
+    "name": "ptyx_NA",
+    "tx_count": 1154,
+    "total_arrr": 484.19863696,
+    "total_fee": 0.0009360000000001123,
+    "last_seen": 1687822299
+  },
+  {
+    "address": "RVtN79Z1PGLra6mKJ18x6AtbYwtMciXoz5",
+    "name": "tonyl_AR",
+    "tx_count": 1152,
+    "total_arrr": 720.2595828699999,
+    "total_fee": 0.17285032000004208,
+    "last_seen": 1623676055
+  },
+  {
+    "address": "RKwE4bzJKLGazP9utkVG5PCgAiTavq2Tea",
+    "name": "madmax_AR",
+    "tx_count": 1137,
+    "total_arrr": 512.58022799,
+    "total_fee": 0.2313645199999969,
+    "last_seen": 1592141427
+  },
+  {
+    "address": "RGxBQho3stt6EiApWTzFZxDvqqsM8GwAuk",
+    "name": "komodopioneers_SH",
+    "tx_count": 1114,
+    "total_arrr": 4030.79566868,
+    "total_fee": 0.407875390000097,
+    "last_seen": 1563202136
+  },
+  {
+    "address": "RF2v51CPnoYJcq3RQmiM1THnob4Ki76wdv",
+    "name": "voskcoin_EU",
+    "tx_count": 1098,
+    "total_arrr": 523.7498928900001,
+    "total_fee": 0.11113004999998544,
+    "last_seen": 1592055093
+  },
+  {
+    "address": "RQrGQjuoHHxFxDX1RBkB65ZPFoNpWgdTDx",
+    "name": "pungocloud_SH",
+    "tx_count": 1095,
+    "total_arrr": 2781.1290322199998,
+    "total_fee": 0.1628901900000639,
+    "last_seen": 1592195294
+  },
+  {
+    "address": "RLqnbAwfucQEcSzcBXEXAavLTtL1FrWxqJ",
+    "name": "webworker01_NA",
+    "tx_count": 1087,
+    "total_arrr": 15407.94695956,
+    "total_fee": 0.0060280000005754255,
+    "last_seen": 1656243378
+  },
+  {
+    "address": "RSuXRScqHNbRFqjur2C3tf3oDoauBs2B1i",
+    "name": "a-team_SH",
+    "tx_count": 1082,
+    "total_arrr": 8541.626127630001,
+    "total_fee": 0.18015055999971352,
+    "last_seen": 1563084008
+  },
+  {
+    "address": "RLNxjj7hm2Y83NscZ5MgGUEuH2Qt2U1hLF",
+    "name": "tonyl_DEV",
+    "tx_count": 1076,
+    "total_arrr": 699.31970497,
+    "total_fee": 0.1614502600000421,
+    "last_seen": 1623650815
+  },
+  {
+    "address": "RXtJ79wj7TmjK3gwdgdW1yxgNTRtRcAT9y",
+    "name": "artemii235_DEV",
+    "tx_count": 1064,
+    "total_arrr": 695.6702080199999,
+    "total_fee": 0.15965025000004213,
+    "last_seen": 1623652392
+  },
+  {
+    "address": "RJvnmHEXt2me6bjV1Lio2WigULptRtuGT2",
+    "name": "alright_AR",
+    "tx_count": 1060,
+    "total_arrr": 107.70589435,
+    "total_fee": 0.2829600000000021,
+    "last_seen": 1581773512
+  },
+  {
+    "address": "RKytuA1ubrCD66hNNemcsvyDhDbcR2S1sU",
+    "name": "mrlynch_AR",
+    "tx_count": 1045,
+    "total_arrr": 943.79359969,
+    "total_fee": 0.12004413000002766,
+    "last_seen": 1646095581
+  },
+  {
+    "address": "RSP8FSK2fcgmRjEhjRJg7nJ9uaxNwsmWBx",
+    "name": "onur-ozkan_NA",
+    "tx_count": 1042,
+    "total_arrr": 788.5953733599999,
+    "total_fee": 0.1820519100000261,
+    "last_seen": 1750964428
+  },
+  {
+    "address": "RXfzAJFk56KGwUvaD73guri1RyyE7hAahz",
+    "name": "titomane_EU",
+    "tx_count": 1037,
+    "total_arrr": 818.1426013500001,
+    "total_fee": 0.22367040999997292,
+    "last_seen": 1592124451
+  },
+  {
+    "address": "RRhPGq2dwNwpNreeAemcnK5e6pVrq9pkPV",
+    "name": "webworker01_NA",
+    "tx_count": 1020,
+    "total_arrr": 1626.3720788399999,
+    "total_fee": 0.00147356000004559,
+    "last_seen": 1729836096
+  },
+  {
+    "address": "RFJeVTuJrsvbcbanrcMRPKU3zjNkkenzuh",
+    "name": "karasugoi_NA",
+    "tx_count": 1011,
+    "total_arrr": 523.09802155,
+    "total_fee": 0.4325396599999986,
+    "last_seen": 1654920027
+  },
+  {
+    "address": "RK2dVmog5hPAXunrENSPSkC5rwpiwjzG1p",
+    "name": "yurri-khi_DEV",
+    "tx_count": 1003,
+    "total_arrr": 725.35490197,
+    "total_fee": 0.1500004500000142,
+    "last_seen": 1688497144
+  },
+  {
+    "address": "RBsBrUeQxbes8nbLDyxKDbPq1MWsVvJ45V",
+    "name": "artist_SH",
+    "tx_count": 997,
+    "total_arrr": 195.57884862,
+    "total_fee": 0.11256039000000793,
+    "last_seen": 1761053133
+  },
+  {
+    "address": "RQgQ19Hh1dMKdkSwsBZXsURBjKh7XS5obb",
+    "name": "webworker01_NA",
+    "tx_count": 991,
+    "total_arrr": 7440.45789143,
+    "total_fee": 0.0006500000002908068,
+    "last_seen": 1592139675
+  },
+  {
+    "address": "RQrLjTk25WHHo5CcDZXQ4CpZcgmgZa2EZK",
+    "name": "greer_NA",
+    "tx_count": 974,
+    "total_arrr": 489.3081,
+    "total_fee": 2.3592239273284576e-16,
+    "last_seen": 1620169913
+  },
+  {
+    "address": "REF4cjVxcdngj9Hj6wU2c7g7ypXpvco8wB",
+    "name": "tonyl_AR",
+    "tx_count": 959,
+    "total_arrr": 416.49026888,
+    "total_fee": 0.1436503300000029,
+    "last_seen": 1687430281
+  },
+  {
+    "address": "RKCXF7EYaAJHmiyDKmubhQ88dYc7CbTZxx",
+    "name": "kolo_AR",
+    "tx_count": 956,
+    "total_arrr": 346.7415,
+    "total_fee": 3.7470027081099033e-16,
+    "last_seen": 1656053025
+  },
+  {
+    "address": "RH1vUjh6JBX7dpPR3C89U8hzErp1uoa2by",
+    "name": "meshbits_SH",
+    "tx_count": 929,
+    "total_arrr": 4167.885444150001,
+    "total_fee": 0.29661693999945116,
+    "last_seen": 1563202960
+  },
+  {
+    "address": "RV6MDNZ6t3zJWhvgyZTJfzMj55LBiMsmJM",
+    "name": "who-biz_AR",
+    "tx_count": 927,
+    "total_arrr": 205.62268059,
+    "total_fee": 0.01016192000000292,
+    "last_seen": 1765857083
+  },
+  {
+    "address": "RChainEuLGzkjVWaUPmAphawbSyfF3KXZb",
+    "name": "chainmakers_EU",
+    "tx_count": 924,
+    "total_arrr": 2383.24421848,
+    "total_fee": 0.29964573999967953,
+    "last_seen": 1592106716
+  },
+  {
+    "address": "RFzhf56gWgfmG7VSHxJwZYenWKxYdHhxUh",
+    "name": "nutellalicka_SH",
+    "tx_count": 918,
+    "total_arrr": 1197.94950397,
+    "total_fee": 0.12117951000002392,
+    "last_seen": 1592143853
+  },
+  {
+    "address": "RYTWfHVK5p8jeXye4rxcPB3W8Y9T5AV2U6",
+    "name": "phm87_SH",
+    "tx_count": 909,
+    "total_arrr": 1333.68922012,
+    "total_fee": 0.004793820000051524,
+    "last_seen": 1623381090
+  },
+  {
+    "address": "RGerhyyJWjpcYrYV7UCNBkCgV4gPZFkiWb",
+    "name": "lukechilds_AR",
+    "tx_count": 892,
+    "total_arrr": 3004.8097944,
+    "total_fee": 0.13413399999985415,
+    "last_seen": 1592133607
+  },
+  {
+    "address": "RPr9xBwyRUvsXd1DD1MVpkbmFs1UnB9rd4",
+    "name": "d0ct0r_NA",
+    "tx_count": 892,
+    "total_arrr": 655.4906549,
+    "total_fee": 0.16486022999999594,
+    "last_seen": 1591988416
+  },
+  {
+    "address": "RSKDECKERyuopK3gd3SQHH9qkngsfWrjXy",
+    "name": "decker_AR",
+    "tx_count": 892,
+    "total_arrr": 338.09372103,
+    "total_fee": 0.3504425600000052,
+    "last_seen": 1623710881
+  },
+  {
+    "address": "RNyD2yYVzC9Jv3Gqhju62RZmRMZ2n1qaSS",
+    "name": "artem.pikulin_DEV",
+    "tx_count": 877,
+    "total_arrr": 388.53212128,
+    "total_fee": 0.1313503299999887,
+    "last_seen": 1658235328
+  },
+  {
+    "address": "RRrqjqDPZ9XC6xJMeKgf7GNHjiU88hJQ16",
+    "name": "metaphilibert_SH",
+    "tx_count": 867,
+    "total_arrr": 11475.90832648,
+    "total_fee": 0.3146694100000037,
+    "last_seen": 1687164574
+  },
+  {
+    "address": "RHw84GCY3AiqDmWd8AsGQAGZcttcoB9F19",
+    "name": "pirate_NA",
+    "tx_count": 862,
+    "total_arrr": 282.37810693,
+    "total_fee": 0.23109819999999928,
+    "last_seen": 1624560957
+  },
+  {
+    "address": "R9oDLb6DmyseLjoasJnwyDSQUJSSiVSaHR",
+    "name": "naezith_NA",
+    "tx_count": 803,
+    "total_arrr": 453.1678073,
+    "total_fee": 0.10518024000001822,
+    "last_seen": 1762484536
+  },
+  {
+    "address": "RLxmmwsjtCsEC6sfjjxsWoTrnpcmgC9cfv",
+    "name": "artem.pikulin_AR",
+    "tx_count": 803,
+    "total_arrr": 131.96926634,
+    "total_fee": 0.12766033999999968,
+    "last_seen": 1700195104
+  },
+  {
+    "address": "RDECKVXcWCgPpMrKqQmMX7PxzQVLCzcR5a",
+    "name": "decker_DEV",
+    "tx_count": 801,
+    "total_arrr": 683604.98816763,
+    "total_fee": 0.34517562001944657,
+    "last_seen": 1623722176
+  },
+  {
+    "address": "RUdfZrpAhYyT4LVz6Vyj2K14yK1uC2K4Dz",
+    "name": "alien_EU",
+    "tx_count": 800,
+    "total_arrr": 3286.70498912,
+    "total_fee": 0.23981666000015123,
+    "last_seen": 1563146612
+  },
+  {
+    "address": "RQbxswtZeyeykc9n32Couekqv2uXaSxJRQ",
+    "name": "pbca26_NA",
+    "tx_count": 795,
+    "total_arrr": 606.24172364,
+    "total_fee": 0.19425672999997448,
+    "last_seen": 1727948662
+  },
+  {
+    "address": "RGcG93msVvnGf6BJGHqKj32sTjpEgUszey",
+    "name": "gcharang2_SH",
+    "tx_count": 784,
+    "total_arrr": 391.68879408000004,
+    "total_fee": 0.10739803999998515,
+    "last_seen": 1765851893
+  },
+  {
+    "address": "RBHzJTW73U3nyHyxBwiG92bJckxZowPY87",
+    "name": "alien_AR",
+    "tx_count": 783,
+    "total_arrr": 44310.93338127,
+    "total_fee": 0.23417656000069745,
+    "last_seen": 1563123168
+  },
+  {
+    "address": "RU5BX3jDGNJu5afjZKoMHtXg7fDNYXXhTc",
+    "name": "node-9_NA",
+    "tx_count": 779,
+    "total_arrr": 167.89670519,
+    "total_fee": 0.1372900699999999,
+    "last_seen": 1654149648
+  },
+  {
+    "address": "RCXQuiwsHTJ1WnpjzWwPdWcKAC5mryJw3N",
+    "name": "tonyl_DEV",
+    "tx_count": 774,
+    "total_arrr": 504.00623878,
+    "total_fee": 0.1161501700000342,
+    "last_seen": 1705861272
+  },
+  {
+    "address": "RSheeba8AkzC57dmsNS2as6c6n2SCN21Tm",
+    "name": "sheeba_SH",
+    "tx_count": 767,
+    "total_arrr": 800.40967232,
+    "total_fee": 0.0008029199999734747,
+    "last_seen": 1725107511
+  },
+  {
+    "address": "RFQNjTfcvSAmf8D83og1NrdHj1wH2fc5X4",
+    "name": "indenodes_AR",
+    "tx_count": 764,
+    "total_arrr": 2682.69938228,
+    "total_fee": 0.2553869600000592,
+    "last_seen": 1602645974
+  },
+  {
+    "address": "RLP5JHpfD7M1NmDikLazhCoDWwgH2Ud1FY",
+    "name": "fullmoon_NA",
+    "tx_count": 761,
+    "total_arrr": 3609.34285204,
+    "total_fee": 0.0022197700002943854,
+    "last_seen": 1592114539
+  },
+  {
+    "address": "RCy1mkqSwN9wnaj599bBqL4for6owRu2xa",
+    "name": "pungocloud_SH",
+    "tx_count": 733,
+    "total_arrr": 2002.1345004799998,
+    "total_fee": 0.019300000000106454,
+    "last_seen": 1623680210
+  },
+  {
+    "address": "RBix4jcnBVmPFEntVST6aYPcDNt49PMUvi",
+    "name": "starfleet_EU",
+    "tx_count": 719,
+    "total_arrr": 461.2176,
+    "total_fee": 1.1102230246251565e-16,
+    "last_seen": 1620498090
+  },
+  {
+    "address": "RVQAwUJdFVVK2Pjiq4rYkvMSiZucHtJA7X",
+    "name": "popcornbag_NA",
+    "tx_count": 716,
+    "total_arrr": 6208.14565471,
+    "total_fee": 0.17509447000014802,
+    "last_seen": 1563137416
+  },
+  {
+    "address": "RMgxprD7cNgQmAkoLZXbuNEbEq7nfqfe2Q",
+    "name": "pbca26_NA",
+    "tx_count": 711,
+    "total_arrr": 283.39535,
+    "total_fee": 0.0006100000000073269,
+    "last_seen": 1624399825
+  },
+  {
+    "address": "RM3BfrKfZTdgMgn8WDN6Bgt99AxoLmCvpi",
+    "name": "blackice_SH",
+    "tx_count": 710,
+    "total_arrr": 556.07902224,
+    "total_fee": 0.11374034999997729,
+    "last_seen": 1765853418
+  },
+  {
+    "address": "RChainNacqqXCpPh8qRKEDXS5gvLJQpMjS",
+    "name": "chainmakers_NA",
+    "tx_count": 699,
+    "total_arrr": 2745.97473727,
+    "total_fee": 0.21184287000012356,
+    "last_seen": 1592133607
+  },
+  {
+    "address": "RMbNsa4Nf3BAd16BQaAAmfzAgnuorUDrCr",
+    "name": "webworker01_NA",
+    "tx_count": 677,
+    "total_arrr": 6211.27453364,
+    "total_fee": 0.06217425999968622,
+    "last_seen": 1563112813
+  },
+  {
+    "address": "RTPBi5hpdSUARnh9gGahv6tr4ppHDwAkxD",
+    "name": "pirate_EU",
+    "tx_count": 674,
+    "total_arrr": 593.84387876,
+    "total_fee": 0.18942029999998442,
+    "last_seen": 1592170273
+  },
+  {
+    "address": "REaiPC7VrrQ2Sa2SJaLdYTzEaUiB34NrmW",
+    "name": "chainzilla_SH",
+    "tx_count": 659,
+    "total_arrr": 696.5641840899999,
+    "total_fee": 0.0015620000000480464,
+    "last_seen": 1592086811
+  },
+  {
+    "address": "RWxiQzksyfhDcARnPWe852naEqgpCVJkeE",
+    "name": "fullmoon_AR",
+    "tx_count": 654,
+    "total_arrr": 3143.09877027,
+    "total_fee": 0.0032337600002334656,
+    "last_seen": 1592145904
+  },
+  {
+    "address": "RKUnQ7nLXQ5dUFanYVYxwsgLDPcRDD9iJm",
+    "name": "webworker01_EU",
+    "tx_count": 653,
+    "total_arrr": 745.85370538,
+    "total_fee": 2.5560000024515972e-05,
+    "last_seen": 1719433804
+  },
+  {
+    "address": "RHBLsSnuGyvgJTMM2drV7Lq7wdT5WXZHbU",
+    "name": "node-9_EU",
+    "tx_count": 652,
+    "total_arrr": 1635.45157334,
+    "total_fee": 0.18980602000002367,
+    "last_seen": 1592129006
+  },
+  {
+    "address": "RV8Khq8SbYQALx9eMQ8meseWpFiZS8seL1",
+    "name": "meshbits_AR",
+    "tx_count": 559,
+    "total_arrr": 3979.84640012,
+    "total_fee": 0.17913707000005127,
+    "last_seen": 1555601390
+  },
+  {
+    "address": "RGHcUzknR6JSUzdtxjMZWDEZ2v65air8MB",
+    "name": "naezith_EU",
+    "tx_count": 558,
+    "total_arrr": 328.87299351999997,
+    "total_fee": 0.07310009000001155,
+    "last_seen": 1747105227
+  },
+  {
+    "address": "RGcGxTnVbaVUBVoh5yxDqscLFWgfdeWALS",
+    "name": "gcharang_SH",
+    "tx_count": 556,
+    "total_arrr": 541.0119386499999,
+    "total_fee": 0.07948701000001998,
+    "last_seen": 1765840603
+  },
+  {
+    "address": "RPKvuLYyyDB3tT6xDoMaEWBE3Ww3A27yom",
+    "name": "zatjum_SH",
+    "tx_count": 554,
+    "total_arrr": 885.9718869,
+    "total_fee": 0.00010000000005194742,
+    "last_seen": 1623654992
+  },
+  {
+    "address": "RWPhKTa5Huepz19TYrxAE65rQn3D3xPrNw",
+    "name": "popcornbag_AR",
+    "tx_count": 550,
+    "total_arrr": 5726.70393185,
+    "total_fee": 0.1263280200002166,
+    "last_seen": 1562761807
+  },
+  {
+    "address": "R9WsywChUgTumbK2cf1RdjHrWMZV3nfs3a",
+    "name": "fullmoon_SH",
+    "tx_count": 519,
+    "total_arrr": 5654.99541852,
+    "total_fee": 0.07160531000007622,
+    "last_seen": 1563221907
+  },
+  {
+    "address": "RGcG4Ei5mPCHaGYvHfmqXLg9wBk7PFb8Co",
+    "name": "gcharang_DEV",
+    "tx_count": 515,
+    "total_arrr": 878.15298408,
+    "total_fee": 0.0482110700000082,
+    "last_seen": 1765836918
+  },
+  {
+    "address": "RGcGqDQV6DHHYCVteio5VG2zeH5KyCcYjF",
+    "name": "gcharang_SH",
+    "tx_count": 506,
+    "total_arrr": 338.45697308,
+    "total_fee": 0.10721089000000533,
+    "last_seen": 1623672632
+  },
+  {
+    "address": "RAtyzPtx7yeH7jhFkD7e2dhf2p429Cn3tQ",
+    "name": "fullmoon_NA",
+    "tx_count": 505,
+    "total_arrr": 2060.20903297,
+    "total_fee": 0.07056010999989315,
+    "last_seen": 1563309240
+  },
+  {
+    "address": "RRb1W9CBkdP3E9bxqp6KeGqgC8oiR1LpCJ",
+    "name": "chainzilla_SH",
+    "tx_count": 492,
+    "total_arrr": 775.5611146,
+    "total_fee": 0.00015000000005228051,
+    "last_seen": 1623747017
+  },
+  {
+    "address": "RYB6wbNGkJHMzJnTkqBw5ghcLH85EqAxMD",
+    "name": "zatjum_SH",
+    "tx_count": 489,
+    "total_arrr": 626.66952652,
+    "total_fee": 0.00115000000003751,
+    "last_seen": 1592168978
+  },
+  {
+    "address": "RDbsu8cS1J3RpRfYTagmhE3E3irBLdG1io",
+    "name": "dragonhound_NA",
+    "tx_count": 486,
+    "total_arrr": 41576.20282261,
+    "total_fee": 0.09490008999910826,
+    "last_seen": 1760946014
+  },
+  {
+    "address": "RPjUmFNcWEW9Bu275kPxzRXyWDz6bfQpPD",
+    "name": "etszombi_EU",
+    "tx_count": 480,
+    "total_arrr": 2000.3123232100002,
+    "total_fee": 0.1855666599999335,
+    "last_seen": 1563132746
+  },
+  {
+    "address": "RBksYFaewa6C5VSLej39iWLuTuJZBYjGwJ",
+    "name": "dragonhound_EU",
+    "tx_count": 478,
+    "total_arrr": 575.0828856,
+    "total_fee": 0.1439600600000034,
+    "last_seen": 1757498052
+  },
+  {
+    "address": "RTMsFvPbVZxZVnheEt5dLgkb7wzSwWDHf3",
+    "name": "titomane_AR",
+    "tx_count": 471,
+    "total_arrr": 177.80808915,
+    "total_fee": 0.14427613000000356,
+    "last_seen": 1623649542
+  },
+  {
+    "address": "RB49Rm4jBe5mN9anErvkzf3kcQCzHqyz3e",
+    "name": "etszombi_EU",
+    "tx_count": 460,
+    "total_arrr": 180.45470704000002,
+    "total_fee": 0.16658003999999377,
+    "last_seen": 1623633539
+  },
+  {
+    "address": "RSQUoSfM7R7SnatK6Udsb5t39movCpUKQE",
+    "name": "chainmakers_EU",
+    "tx_count": 459,
+    "total_arrr": 5506.67164,
+    "total_fee": 0.17058074000007917,
+    "last_seen": 1563008509
+  },
+  {
+    "address": "RCMNAcFnqWGLxX7ocEjM9Eb3vgPfFgC4mP",
+    "name": "chainmakers_NA",
+    "tx_count": 455,
+    "total_arrr": 208.7337067,
+    "total_fee": 0.14103414000000328,
+    "last_seen": 1631974149
+  },
+  {
+    "address": "RPZYurYawfnRLdsLqHzf79KJuNicTJVVfV",
+    "name": "marmarachain_AR",
+    "tx_count": 434,
+    "total_arrr": 570.10908291,
+    "total_fee": 0.107791869999997,
+    "last_seen": 1765847564
+  },
+  {
+    "address": "RFovZtwXCjAE8fAtB6xULQype7BVCQsxd1",
+    "name": "fullmoon_NA",
+    "tx_count": 421,
+    "total_arrr": 262.740188,
+    "total_fee": 0.008112000000002065,
+    "last_seen": 1623653118
+  },
+  {
+    "address": "RKhHqEhbPBBRxgsKTzYbXqVW7AAJdasrSb",
+    "name": "tonyl_AR",
+    "tx_count": 417,
+    "total_arrr": 715.77974495,
+    "total_fee": 0.06230006999998969,
+    "last_seen": 1713642207
+  },
+  {
+    "address": "RSheeba2WbxtoMFMd5Axk15sVHSJrxurGH",
+    "name": "sheeba2_SH",
+    "tx_count": 416,
+    "total_arrr": 218.9444856,
+    "total_fee": 0.0923906800000029,
+    "last_seen": 1725062557
+  },
+  {
+    "address": "RQcBfvJLyB96GCuTBRUNckQESw8LYjHQaC",
+    "name": "crackers_NA",
+    "tx_count": 395,
+    "total_arrr": 4711.86681518,
+    "total_fee": 0.40396004999970514,
+    "last_seen": 1563135275
+  },
+  {
+    "address": "RAqoFL81YGFJ7hidAYUw2rzX8wjFKPCecP",
+    "name": "titomane_SH",
+    "tx_count": 391,
+    "total_arrr": 5014.54633468,
+    "total_fee": 0.14093217000004676,
+    "last_seen": 1563132618
+  },
+  {
+    "address": "RKtrYT7yN2ZgV8wqEj5c2EoZPMtB1gdjDR",
+    "name": "tokel_NA",
+    "tx_count": 388,
+    "total_arrr": 122.47043542,
+    "total_fee": 0.1215440300000009,
+    "last_seen": 1677394875
+  },
+  {
+    "address": "RGVgT9LDvr9ph7zXEV3nfh6wsjHRsK3usm",
+    "name": "madmax_DEV",
+    "tx_count": 385,
+    "total_arrr": 224.14470506,
+    "total_fee": 0.07934007999998889,
+    "last_seen": 1686989441
+  },
+  {
+    "address": "RDDZ2RXHBmwyB3HLXd9rS2n98DbdJu1ywM",
+    "name": "titomane_SH",
+    "tx_count": 384,
+    "total_arrr": 370.31678124,
+    "total_fee": 0.1395410000000033,
+    "last_seen": 1592138288
+  },
+  {
+    "address": "RG2eBcaSFUkjukBCZBr8XgpzfYBHb3v72M",
+    "name": "marmarachain_EU",
+    "tx_count": 383,
+    "total_arrr": 101.53790664,
+    "total_fee": 0.0022211999999997402,
+    "last_seen": 1656412832
+  },
+  {
+    "address": "R9yxJm6DtgyxgGz2BsfXZUtxNq23diZi93",
+    "name": "infotech_DEV",
+    "tx_count": 381,
+    "total_arrr": 169.91820198,
+    "total_fee": 0.0045840000000002,
+    "last_seen": 1592093408
+  },
+  {
+    "address": "RXwa2sLSHJFL5JQtaWUu1dGZfRrXbB3wkj",
+    "name": "fullmoon_SH",
+    "tx_count": 378,
+    "total_arrr": 1920.11787883,
+    "total_fee": 0.0035555199999279807,
+    "last_seen": 1592138757
+  },
+  {
+    "address": "RWHgTkKG2mDELSwSPomeCd3nowP5SMtqoi",
+    "name": "komodopioneers_EU",
+    "tx_count": 374,
+    "total_arrr": 326.05100777999996,
+    "total_fee": 0.09235000000001922,
+    "last_seen": 1660900525
+  },
+  {
+    "address": "RNdPnDPbMtJSMYaEU9n9kJF2xorazkRc15",
+    "name": "webworker01_SH",
+    "tx_count": 372,
+    "total_arrr": 2152.2710167699997,
+    "total_fee": 8.892886427247504e-14,
+    "last_seen": 1592137853
+  },
+  {
+    "address": "RR3vFgpjBBJkUFdL53R4q21LGnSn3v5hZb",
+    "name": "hyper_NA",
+    "tx_count": 368,
+    "total_arrr": 184.881,
+    "total_fee": 0,
+    "last_seen": 1656066625
+  },
+  {
+    "address": "RS4S9b9aG1yfeXFoBj2NcPoBE21XKfJDgc",
+    "name": "decker_EU",
+    "tx_count": 367,
+    "total_arrr": 149.34222452,
+    "total_fee": 0.15293007000000158,
+    "last_seen": 1660373676
+  },
+  {
+    "address": "RRfUCLxfT5NMpxsC9GHVbdfVy5WJnJFQLV",
+    "name": "dragonhound_NA",
+    "tx_count": 366,
+    "total_arrr": 8207.278832959999,
+    "total_fee": 0.20175042000020413,
+    "last_seen": 1592370630
+  },
+  {
+    "address": "RMZHMdSAJrGzsKp7xUtLtYizBf9L8eVawZ",
+    "name": "pbca26_NA",
+    "tx_count": 364,
+    "total_arrr": 1066.39657742,
+    "total_fee": 0.03899031000002307,
+    "last_seen": 1592129006
+  },
+  {
+    "address": "RAZ6dERVx3kLin3sQsXG8wRNsQ7q4tddWf",
+    "name": "komodopioneers_EU",
+    "tx_count": 360,
+    "total_arrr": 103.00511723,
+    "total_fee": 0.17150807999999748,
+    "last_seen": 1591997588
+  },
+  {
+    "address": "RCTgouafkve3rCSaqmm89TUpKGvQSTFr5M",
+    "name": "titomane_EU",
+    "tx_count": 358,
+    "total_arrr": 4819.7797125,
+    "total_fee": 0.16483815000015734,
+    "last_seen": 1563133594
+  },
+  {
+    "address": "RRumqyui4uxWHmf9AaN5PKgRwtmwYc2nze",
+    "name": "titomane_AR",
+    "tx_count": 357,
+    "total_arrr": 305.90972381,
+    "total_fee": 0.14671008999998963,
+    "last_seen": 1592085621
+  },
+  {
+    "address": "R9iBY1oyt4AMocyMbScxqzC1JtWa1XNN5K",
+    "name": "nutellaLicka_SH",
+    "tx_count": 340,
+    "total_arrr": 292.65271025,
+    "total_fee": 0.02605004999998776,
+    "last_seen": 1656039936
+  },
+  {
+    "address": "RVB7Vd4JbbjQPV1WE5ZdeWmWo5EjMpXDH6",
+    "name": "dragonhound_NA",
+    "tx_count": 337,
+    "total_arrr": 5342.42430682,
+    "total_fee": 0.07581200000006325,
+    "last_seen": 1623692081
+  },
+  {
+    "address": "RJX9LtFB9RXQ2wKKi4byUJ5p42ZaiWSaiZ",
+    "name": "thegaltmines_NA",
+    "tx_count": 331,
+    "total_arrr": 1140.1637864,
+    "total_fee": 0.005282000000070744,
+    "last_seen": 1590760858
+  },
+  {
+    "address": "RU2RqFrjwy4kauANnzK1JWyDVAx47z51qw",
+    "name": "pirate_AR",
+    "tx_count": 331,
+    "total_arrr": 377.21353791999996,
+    "total_fee": 0.10810014000000867,
+    "last_seen": 1592079094
+  },
+  {
+    "address": "RUhSZfPfrSY8kq17zMLLyuiidMdKoakxc3",
+    "name": "mylo_SH",
+    "tx_count": 323,
+    "total_arrr": 209.01975432,
+    "total_fee": 0.09367003999999585,
+    "last_seen": 1623637430
+  },
+  {
+    "address": "RBHCkuYMUbQph7MZsHcZYfGfyqBm8Y4jFQ",
+    "name": "emmanux_SH",
+    "tx_count": 312,
+    "total_arrr": 1541.42362342,
+    "total_fee": 0.039370069999971946,
+    "last_seen": 1544711375
+  },
+  {
+    "address": "RM5PwsupULJx3HgBmfKwKJrts5wX6uMepc",
+    "name": "tonyl_AR",
+    "tx_count": 311,
+    "total_arrr": 162.3568457,
+    "total_fee": 0.052500110000003763,
+    "last_seen": 1756663491
+  },
+  {
+    "address": "RVyEjzgN7szbEWHJM8vr667gee2AMtggpV",
+    "name": "drkush_SH",
+    "tx_count": 311,
+    "total_arrr": 283.29508901,
+    "total_fee": 0.00014999999998899227,
+    "last_seen": 1654515125
+  },
+  {
+    "address": "RSYou1G9aJN46BgKwGxPzikYaQj1dC3TAZ",
+    "name": "kolo_EU",
+    "tx_count": 310,
+    "total_arrr": 122.67844038,
+    "total_fee": 0.012171529999999098,
+    "last_seen": 1682888487
+  },
+  {
+    "address": "RQ7tJz8E12s1esbRvuSSFTduWnT4E4D15B",
+    "name": "dudezmobi_AR",
+    "tx_count": 292,
+    "total_arrr": 248.22249109999998,
+    "total_fee": 0.00024266000000261467,
+    "last_seen": 1623668428
+  },
+  {
+    "address": "REX8jNcUki4NyNde3ovr5ZgjwnCyRZYczv",
+    "name": "pbca26_NA",
+    "tx_count": 289,
+    "total_arrr": 4386.35441592,
+    "total_fee": 0.1560270200001249,
+    "last_seen": 1563219763
+  },
+  {
+    "address": "RTHCt64FiFsexnMhK1KbYt8v2hMA5rbQ14",
+    "name": "dappvader_SH",
+    "tx_count": 289,
+    "total_arrr": 425.26827978,
+    "total_fee": 0.0030080000000218673,
+    "last_seen": 1653646854
+  },
+  {
+    "address": "R9Pyw4ZHRJsvLe62azkj2ie7wXqRUHLfeL",
+    "name": "onur-ozkan_EU",
+    "tx_count": 285,
+    "total_arrr": 43.17047972,
+    "total_fee": 0.05901617999999979,
+    "last_seen": 1742055209
+  },
+  {
+    "address": "RRQC4QCqmkNZevhYNqPiwxNMkMzkpqnwo5",
+    "name": "pbca26_NA",
+    "tx_count": 278,
+    "total_arrr": 108.04725592,
+    "total_fee": 0.019356439999998105,
+    "last_seen": 1688022003
+  },
+  {
+    "address": "RC9VUfpU7WwSwj4Uwr9hJHhi4rdkspDPn6",
+    "name": "mihailo_EU",
+    "tx_count": 273,
+    "total_arrr": 174.35764,
+    "total_fee": 0.009360000000000012,
+    "last_seen": 1623673146
+  },
+  {
+    "address": "RTZi9uC1wEu3PD9eoL4R7KyeAse7uvdHuS",
+    "name": "0dev3_kolo",
+    "tx_count": 258,
+    "total_arrr": 4010.6631028300003,
+    "total_fee": 0.10609406999970854,
+    "last_seen": 1619527826
+  },
+  {
+    "address": "RQGx7MQLpvKMh6fQDHU7CmAaqwdkJjkuEU",
+    "name": "pbca26_SH",
+    "tx_count": 249,
+    "total_arrr": 111.21839999999999,
+    "total_fee": 5.384581669432009e-15,
+    "last_seen": 1655897634
+  },
+  {
+    "address": "RMRNr5ZHbqZzPDdNL7xRUqLr6pDare4LJ1",
+    "name": "kolo_AR",
+    "tx_count": 246,
+    "total_arrr": 105.83979592,
+    "total_fee": 0.009958089999999177,
+    "last_seen": 1682806993
+  },
+  {
+    "address": "RVAUHZ4QGzxmW815b98oMv943FCms6AzUi",
+    "name": "komodoninja_SH",
+    "tx_count": 238,
+    "total_arrr": 4460.038661099999,
+    "total_fee": 0.1089601700001337,
+    "last_seen": 1563127082
+  },
+  {
+    "address": "RCGxNA2xeWPU1gkNC1ETNan5UVSSXtBbL9",
+    "name": "computergenie2_NA",
+    "tx_count": 235,
+    "total_arrr": 658.2273759999999,
+    "total_fee": 0.013923999999997378,
+    "last_seen": 1724949657
+  },
+  {
+    "address": "RX1DiFJTrz86jEVJh4JzDJeVz9DQRxWPjG",
+    "name": "etszombi_AR",
+    "tx_count": 232,
+    "total_arrr": 136.6591176,
+    "total_fee": 0.09562003000000202,
+    "last_seen": 1620024477
+  },
+  {
+    "address": "RPwD7JNpkvpEpWXxNq9NWG4n127pFs1K43",
+    "name": "pbca26_NA",
+    "tx_count": 231,
+    "total_arrr": 91.01106483,
+    "total_fee": 0.012483239999999533,
+    "last_seen": 1765805432
+  },
+  {
+    "address": "RA7nJEoqNGu13P7Gv4mWfoJTmpZ9ac2Bh2",
+    "name": "crackers_EU",
+    "tx_count": 225,
+    "total_arrr": 4391.77843797,
+    "total_fee": 0.21882007000014037,
+    "last_seen": 1557785121
+  },
+  {
+    "address": "RKynUpa6dQbjmrXa7fAmTg54ScZjqapxdN",
+    "name": "kolox_AR",
+    "tx_count": 218,
+    "total_arrr": 96.55642985,
+    "total_fee": 0.008464009999999605,
+    "last_seen": 1682672821
+  },
+  {
+    "address": "RKF8wUfBoJYPa1znzBG8JBr8DTfcnwoaZr",
+    "name": "slyris_EU",
+    "tx_count": 206,
+    "total_arrr": 65.3872,
+    "total_fee": 8.326672684688674e-17,
+    "last_seen": 1653895155
+  },
+  {
+    "address": "RDBzwiP8V2TrmXvCyvwU2Xz3t9UgPKL4nr",
+    "name": "etszombi_AR",
+    "tx_count": 204,
+    "total_arrr": 121.2732322,
+    "total_fee": 0.08479006000000189,
+    "last_seen": 1592072550
+  },
+  {
+    "address": "RGYmFPnBipM5cDeXe8WoBNyopVdJVLZzMP",
+    "name": "oszy_EU",
+    "tx_count": 201,
+    "total_arrr": 86.82981183,
+    "total_fee": 0.13047651000000093,
+    "last_seen": 1621297373
+  },
+  {
+    "address": "RCA8H1npFPW5pnJRzycF8tFEJmn6XZhD4j",
+    "name": "jeezy_EU",
+    "tx_count": 200,
+    "total_arrr": 868.71452627,
+    "total_fee": 0.14492449000001484,
+    "last_seen": 1563113743
+  },
+  {
+    "address": "RHi882Amab35uXjqBZjVxgEgmkkMu454KK",
+    "name": "dragonhound_DEV",
+    "tx_count": 195,
+    "total_arrr": 31248.05235904,
+    "total_fee": 0.034100009999918246,
+    "last_seen": 1765257313
+  },
+  {
+    "address": "RLrZLWrFnLkcMf8LQYs9dHFdJkgQrpUFhn",
+    "name": "marmarachain_AR",
+    "tx_count": 190,
+    "total_arrr": 90.89636,
+    "total_fee": 0.01514000000000001,
+    "last_seen": 1623623032
+  },
+  {
+    "address": "RGsZT5u6rqS5qeEye9QiS8Zj1LcuQqVgG9",
+    "name": "mylo_SH",
+    "tx_count": 178,
+    "total_arrr": 39.68313482,
+    "total_fee": 0.052464059999998494,
+    "last_seen": 1656098498
+  },
+  {
+    "address": "RHzbQkW7oLK43GKEPK78rSCs7WDiaa4dbw",
+    "name": "goldenman_EU",
+    "tx_count": 172,
+    "total_arrr": 4221.30603817,
+    "total_fee": 0.10310014000011947,
+    "last_seen": 1562775102
+  },
+  {
+    "address": "RGcGyeSRf3pjE7Lf872TXPAdAjEkcoiGb7",
+    "name": "gcharang_AR",
+    "tx_count": 171,
+    "total_arrr": 168.92618399999998,
+    "total_fee": 0.01902600000000828,
+    "last_seen": 1765850479
+  },
+  {
+    "address": "RFpb3pEopKtiJbqQWg3UfuKuXuSXwpcJCS",
+    "name": "tokel_AR",
+    "tx_count": 168,
+    "total_arrr": 14.089824,
+    "total_fee": 0.05409600000000046,
+    "last_seen": 1655941170
+  },
+  {
+    "address": "RQMyeeSyKFUTd7cYTM1Fq7nSt6zJZKNubi",
+    "name": "hyper_EU",
+    "tx_count": 160,
+    "total_arrr": 4028.7947189600004,
+    "total_fee": 0.09372211999966264,
+    "last_seen": 1563014867
+  },
+  {
+    "address": "RH4ZcH3n8NPAzsWGtJpa5iehbDz6Kjsuoe",
+    "name": "fullmoon_SH",
+    "tx_count": 159,
+    "total_arrr": 128.970964,
+    "total_fee": 0.0009360000000031099,
+    "last_seen": 1623578439
+  },
+  {
+    "address": "RGermikWoYjdYdiAfongWWE3qfXTXS2UqQ",
+    "name": "alright_EU",
+    "tx_count": 157,
+    "total_arrr": 376.33047799999997,
+    "total_fee": 0.056321999999987986,
+    "last_seen": 1707105435
+  },
+  {
+    "address": "RNodeonej4VYNZeWDSM1WaTwXoJXYdzDrk",
+    "name": "nodeone2_NA",
+    "tx_count": 157,
+    "total_arrr": 408.9979,
+    "total_fee": 0.011659999999982296,
+    "last_seen": 1724941223
+  },
+  {
+    "address": "RVxow6SGPCjL2TxfTcztxMWeJWgS5rZTE6",
+    "name": "jeezy_EU",
+    "tx_count": 143,
+    "total_arrr": 606.5571242999999,
+    "total_fee": 0.12155393000000658,
+    "last_seen": 1588460417
+  },
+  {
+    "address": "RAU2mkFapVtzrELdGa3uXpkJGFMK7Z5Uyp",
+    "name": "qa_DEV",
+    "tx_count": 141,
+    "total_arrr": 82.19930117,
+    "total_fee": 0.04200003999999985,
+    "last_seen": 1757492855
+  },
+  {
+    "address": "RUvwCVA1NfDB6ZWrEgVYZHWGjMzpxm19r1",
+    "name": "ca333_EU",
+    "tx_count": 141,
+    "total_arrr": 4164.49269293,
+    "total_fee": 0.08345011000011571,
+    "last_seen": 1563079256
+  },
+  {
+    "address": "RMihry4JYvC6efZKBMGxJpdeQoYLFzFeMj",
+    "name": "caglarkaya_EU",
+    "tx_count": 137,
+    "total_arrr": 47.52084,
+    "total_fee": 0.05915999999999978,
+    "last_seen": 1726851621
+  },
+  {
+    "address": "RL2SkPSCGMvcHqZ56ErfMxbQGdA4nk7MZp",
+    "name": "artik_EU",
+    "tx_count": 132,
+    "total_arrr": 4157.56884494,
+    "total_fee": 0.08055008999966073,
+    "last_seen": 1563031243
+  },
+  {
+    "address": "RFCZc3SnyEtUTSVDkHEvrm7tCdhiDMufLx",
+    "name": "hyper_SH",
+    "tx_count": 128,
+    "total_arrr": 594.4063937999999,
+    "total_fee": 0.07680010000001403,
+    "last_seen": 1562961649
+  },
+  {
+    "address": "RWgpXEycP4rVkFp3j7WzV6E2LfR842WswN",
+    "name": "komodoninja_EU",
+    "tx_count": 119,
+    "total_arrr": 3813.98582532,
+    "total_fee": 0.060922070000110407,
+    "last_seen": 1619527802
+  },
+  {
+    "address": "RXrQPqU4SwARri1m2n7232TDECvjzXCJh4",
+    "name": "chainstrike_SH",
+    "tx_count": 118,
+    "total_arrr": 4040.19653745,
+    "total_fee": 0.09159121000010373,
+    "last_seen": 1563081353
+  },
+  {
+    "address": "RCNyZmHjqPrru1SiijA4fgUeEKZ6u2JVvD",
+    "name": "shamardy_SH",
+    "tx_count": 103,
+    "total_arrr": 362.55578,
+    "total_fee": 0.01644999999998306,
+    "last_seen": 1728756106
+  },
+  {
+    "address": "RVj54N8Txu1krex5nqpoNVUUxSKA26PkZ4",
+    "name": "dragonhound_SH",
+    "tx_count": 101,
+    "total_arrr": 21.13393714,
+    "total_fee": 0.029784019999999866,
+    "last_seen": 1757493708
+  },
+  {
+    "address": "RDJ8XYmYDWFVjCrZHE3nytT84yZkDUP7ii",
+    "name": "francois_SH",
+    "tx_count": 97,
+    "total_arrr": 76.55315684,
+    "total_fee": 0.028499999999999914,
+    "last_seen": 1765799188
+  },
+  {
+    "address": "RFLFunip2v1B95iyJ8cqZN3J8SEcDokTJp",
+    "name": "security_DEV",
+    "tx_count": 95,
+    "total_arrr": 52.77005035,
+    "total_fee": 0.04735006999999969,
+    "last_seen": 1765815622
+  },
+  {
+    "address": "RGBEt22GeFXRvZjfZpvzo68aaxEUtAFZg8",
+    "name": "dragonhound_AR",
+    "tx_count": 91,
+    "total_arrr": 517.11093039,
+    "total_fee": 0.02131001000000597,
+    "last_seen": 1757497674
+  },
+  {
+    "address": "RFARHrX8WwgzSRw8uZaDb9PWG5uGVPUdmP",
+    "name": "alright_DEV",
+    "tx_count": 87,
+    "total_arrr": 387.3048,
+    "total_fee": 0.028349999999987024,
+    "last_seen": 1727989347
+  },
+  {
+    "address": "RPEAampRWYacYse3gAud48DsiLttzhAYHV",
+    "name": "ca333_EU",
+    "tx_count": 87,
+    "total_arrr": 63.08377591,
+    "total_fee": 0.04852402999999968,
+    "last_seen": 1655755013
+  },
+  {
+    "address": "RLC82RXbN5ovL8tZKvU9yzWuhtPmkR7ebR",
+    "name": "ca333_EU",
+    "tx_count": 86,
+    "total_arrr": 48.91810094,
+    "total_fee": 0.04300010999999976,
+    "last_seen": 1765799493
+  },
+  {
+    "address": "RTWpNfpcQgGYnrtgdUyqoPiF9r2CJoAw6Z",
+    "name": "hyper_AR",
+    "tx_count": 83,
+    "total_arrr": 3725.35064753,
+    "total_fee": 0.0492500700001095,
+    "last_seen": 1563133003
+  },
+  {
+    "address": "RNzWZxVKbXnzxdyPbWj2mBwVPHaTJKqekY",
+    "name": "komodopioneers_SH",
+    "tx_count": 81,
+    "total_arrr": 53.94999923,
+    "total_fee": 0.04831002999999878,
+    "last_seen": 1591990554
+  },
+  {
+    "address": "RLQoAcs1RaqW1xfN2NJwoZWW5twexPhuGB",
+    "name": "xrobesx_NA",
+    "tx_count": 78,
+    "total_arrr": 379.21487972,
+    "total_fee": 0.03240000999999282,
+    "last_seen": 1562102936
+  },
+  {
+    "address": "RLopsvKfmtSgBESeteApG3D1NMudg6XJ8t",
+    "name": "ca333_DEV",
+    "tx_count": 75,
+    "total_arrr": 153.7483137,
+    "total_fee": 0.042048010000001315,
+    "last_seen": 1650659780
+  },
+  {
+    "address": "RTfsGUKtFw3ZkrG3PDPoh5jnn79fExWJhu",
+    "name": "ca333_DEV",
+    "tx_count": 74,
+    "total_arrr": 41.47115508,
+    "total_fee": 0.036650079999999835,
+    "last_seen": 1765785310
+  },
+  {
+    "address": "R9XBrbj8iKkwy9M4erUqRaBinAiZSTXav3",
+    "name": "badass_NA",
+    "tx_count": 64,
+    "total_arrr": 3838.0248485999996,
+    "total_fee": 0.03785005000010777,
+    "last_seen": 1557597014
+  },
+  {
+    "address": "RY7wLN2xkmaHyM82RACc7LXXrWpa6H8Tha",
+    "name": "nutellalicka_SH",
+    "tx_count": 58,
+    "total_arrr": 25.694,
+    "total_fee": 0,
+    "last_seen": 1688036978
+  },
+  {
+    "address": "RM9c7nGctj8WsJ1bKXW4JZNGpqC8MPfBVw",
+    "name": "chainstrike_SH",
+    "tx_count": 57,
+    "total_arrr": 286.77985113,
+    "total_fee": 0.050426079999986495,
+    "last_seen": 1588370501
+  },
+  {
+    "address": "RCqKoKpSDP3TsqErz3NFKvwyz8YqiHb8pP",
+    "name": "ca333_EU",
+    "tx_count": 56,
+    "total_arrr": 48.38991516,
+    "total_fee": 0.02758483999999986,
+    "last_seen": 1727897550
+  },
+  {
+    "address": "RHJ9Ym1dJcS2uTj3jfmLkg43JcZMhQqpLi",
+    "name": "ca333_EU",
+    "tx_count": 53,
+    "total_arrr": 82.77133547,
+    "total_fee": 0.024694840000001512,
+    "last_seen": 1687631656
+  },
+  {
+    "address": "RQabokWPyG2yzGgmjWPSPhGMn8FSKZ17SY",
+    "name": "pbca26_SH",
+    "tx_count": 49,
+    "total_arrr": 15.3884502,
+    "total_fee": 0.007353719999998903,
+    "last_seen": 1687032668
+  },
+  {
+    "address": "RCATSaEH51yTTqYPa7N5L1ybAsnwsBv5kd",
+    "name": "kolo_DEV",
+    "tx_count": 47,
+    "total_arrr": 38.262533330000004,
+    "total_fee": 0.03522200000000022,
+    "last_seen": 1591884927
+  },
+  {
+    "address": "RMmPakZ7R3bap78JeKVcxygpS2fTy6NYxX",
+    "name": "alrighttt_DEV",
+    "tx_count": 46,
+    "total_arrr": 126.41929989,
+    "total_fee": 0.0004120000000024458,
+    "last_seen": 1656036034
+  },
+  {
+    "address": "RB2MBK1s1jSk98oaz9wrsiFWpw7LeUfBGv",
+    "name": "alright_DEV",
+    "tx_count": 44,
+    "total_arrr": 39.27,
+    "total_fee": 0,
+    "last_seen": 1602589538
+  },
+  {
+    "address": "RPzvZG4zHXCbfoqf4MvgPL6BkRMLd4vqEB",
+    "name": "ptyx_SH",
+    "tx_count": 36,
+    "total_arrr": 34.856692599999995,
+    "total_fee": 0.021050010000001507,
+    "last_seen": 1765720910
+  },
+  {
+    "address": "RFE6nkXV7QKBs9MA7pn7dTNRBS8UGjDGaM",
+    "name": "dwy_SH",
+    "tx_count": 28,
+    "total_arrr": 20.01890494,
+    "total_fee": 0.010553780000000701,
+    "last_seen": 1564316434
+  },
+  {
+    "address": "RGCLpCFhZxiSXr3E7UiDdroBqnmRFutBst",
+    "name": "pbca26_SH",
+    "tx_count": 27,
+    "total_arrr": 289.12026159000004,
+    "total_fee": 0.0016407299999887104,
+    "last_seen": 1720769579
+  },
+  {
+    "address": "RY7kqi4ePxMPGxwawkiT6rK6vncVfxdQRb",
+    "name": "dwy_EU",
+    "tx_count": 26,
+    "total_arrr": 31.828696519999998,
+    "total_fee": 0.01063846000000117,
+    "last_seen": 1564317621
+  },
+  {
+    "address": "RUEYAufF3Di8c5sycJgsVZdsH4BSqhM59u",
+    "name": "batman_AR",
+    "tx_count": 20,
+    "total_arrr": 327.31179999999995,
+    "total_fee": 0.00610000000004482,
+    "last_seen": 1710759980
+  },
+  {
+    "address": "RVxtoUT9CXbC1LdhztNAf9yR5ySnFnSPQh",
+    "name": "badass_EU",
+    "tx_count": 18,
+    "total_arrr": 3613.4044759599997,
+    "total_fee": 0.009674010000102306,
+    "last_seen": 1556803766
+  },
+  {
+    "address": "RE3P8D8rcWZBeKmT8DURPdezW87MU5Ho3F",
+    "name": "polycryptoblog_NA",
+    "tx_count": 16,
+    "total_arrr": 3413.40049996,
+    "total_fee": 0.009050010000102304,
+    "last_seen": 1557597014
+  },
+  {
+    "address": "RSyzXm2A8Tkmob523i34FGiS37e6TUsTgt",
+    "name": "nutellalicka_AR",
+    "tx_count": 16,
+    "total_arrr": 62.749768949999996,
+    "total_fee": 0.0020618400000016216,
+    "last_seen": 1680479697
+  },
+  {
+    "address": "RMMWFSKZhX4m7cj5gXzrUakidgS4MoKeK4",
+    "name": "blackjok3r_SH",
+    "tx_count": 15,
+    "total_arrr": 197.10039801000002,
+    "total_fee": 0.008001729999974394,
+    "last_seen": 1575569717
+  },
+  {
+    "address": "RGJaTKB3wX1y5yH6daaziCJW5dnSzo5fC1",
+    "name": "emmaccen_DEV",
+    "tx_count": 10,
+    "total_arrr": 292.65274999999997,
+    "total_fee": 0.0025000000000450218,
+    "last_seen": 1690285022
+  },
+  {
+    "address": "RXK9e8Lxb3QTWdWhgRZaZMPYQ6pz4Uj7j4",
+    "name": "collider_SH",
+    "tx_count": 10,
+    "total_arrr": 0.7696000000000001,
+    "total_fee": 0.0006000000000000102,
+    "last_seen": 1641547184
+  },
+  {
+    "address": "RHipJhd3ihAxjSdB6bQ3mwmzPCMAsjorf1",
+    "name": "majora31_SH",
+    "tx_count": 9,
+    "total_arrr": 0.6652,
+    "total_fee": 0.0006000000000000033,
+    "last_seen": 1629417658
+  },
+  {
+    "address": "RD975CNHCBG4YBSjACqKntUYvGxzC9LMUA",
+    "name": "ptyx_SH",
+    "tx_count": 6,
+    "total_arrr": 4.5624879599999995,
+    "total_fee": 0.0008131899999990616,
+    "last_seen": 1702510814
+  },
+  {
+    "address": "RNJmgYaFF5DbnrNUX6pMYz9rcnDKC2tuAc",
+    "name": "0dev1_jl777",
+    "tx_count": 2,
+    "total_arrr": 3583.99995,
+    "total_fee": 0.00015000000010090275,
+    "last_seen": 1544874665
+  },
+  {
+    "address": "RFssbc211PJdVy1bvcvAG5X2N4ovPAoy5o",
+    "name": "artik_NA",
+    "tx_count": 1,
+    "total_arrr": 3548.9996,
+    "total_fee": 5.000000010113581e-05,
+    "last_seen": 1537799379
+  },
+  {
+    "address": "RGff8orREh1aEXibNu56HyFHhA3tyP9gWv",
+    "name": "mylo_NA",
+    "tx_count": 1,
+    "total_arrr": 0.02971,
+    "total_fee": 0.0002899999999999986,
+    "last_seen": 1657208239
+  },
+  {
+    "address": "RHuUpCbaGbv27fsjC1p6xwtwRzKQ1exqaA",
+    "name": "libscott_SH",
+    "tx_count": 1,
+    "total_arrr": 3393.99805,
+    "total_fee": 4.999999964638846e-05,
+    "last_seen": 1537799379
+  },
+  {
+    "address": "RNoz2DKPZ2ppMxgYx5tce9sjZBHefvPvNB",
+    "name": "artik_SH",
+    "tx_count": 1,
+    "total_arrr": 3543.99955,
+    "total_fee": 5.000000010113581e-05,
+    "last_seen": 1537799379
+  },
+  {
+    "address": "RVvcVXkqWmMmjQdFnqwQbtPrdU7DFpHA3G",
+    "name": "batman_AR",
+    "tx_count": 1,
+    "total_arrr": 3528.9994,
+    "total_fee": 4.999999964638846e-05,
+    "last_seen": 1537799379
+  },
+  {
+    "address": "RXF3aHUaWDUY4fRRYmBNALoHWkgSQCiJ4f",
+    "name": "artik_AR",
+    "tx_count": 1,
+    "total_arrr": 3558.9997,
+    "total_fee": 5.000000010113581e-05,
+    "last_seen": 1537799379
+  },
+  {
+    "address": "RY5TZSnmtGZLFMpnJTE6gDRyk1zDvMktcc",
+    "name": "batman_SH",
+    "tx_count": 1,
+    "total_arrr": 3523.99935,
+    "total_fee": 5.000000010113581e-05,
+    "last_seen": 1537799379
+  }
+]

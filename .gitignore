@@ -26,9 +26,6 @@ build/
 dist/
 *.egg-info/
 
-# Generated JSON data
-data/*.json
-
 # Local DB
 pirate_activity.db
 
