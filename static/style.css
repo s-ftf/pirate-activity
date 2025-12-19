@@ -43,14 +43,14 @@ body {
   display: block;
   margin-top: 60px;
   width: 100%;
-  max-width: 340px;
+  max-width: 220px;
 }
-.p-logo {
+.skull-logo {
   display: block;
   margin: 60px auto 0px;
   filter: drop-shadow(8px 8px 4px #00000069);
   width: 100%;
-  max-width: 40px;
+  max-width: 50px;
 }
 h1 {
   width: 100%;
