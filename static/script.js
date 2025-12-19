@@ -13,12 +13,14 @@ const minersTable = document.getElementById("miners-table");
 const notariesTable = document.getElementById("notaries-table");
 let minersData = null;
 let notariesData = null;
+let activitySeriesBuckets = [];
 
 let swapChart;
 let currentRange = "30";
 let activityChart;
 let activityRange = "30";
 let activityDataCache = null;
+let swapBuckets = [];
 
 async function loadData(range) {
   const url = `data/swaps_${range}.json`;
@@ -43,6 +45,14 @@ function percentile(values, p) {
   if (lo === hi) return sorted[lo];
   const weight = idx - lo;
   return sorted[lo] * (1 - weight) + sorted[hi] * weight;
+}
+
+function spanDays(start, end) {
+  const s = new Date(start);
+  const e = new Date(end);
+  if (isNaN(s) || isNaN(e)) return 1;
+  const diff = Math.round((e - s) / 86400000);
+  return Math.max(1, diff + 1);
 }
 
 function updateBadges(meta) {
@@ -89,9 +99,16 @@ function renderTable(meta) {
 
 function renderChart(data) {
   if (!chartEl) return;
-  const labels = data.series.map((p) => p.date);
-  const counts = data.series.map((p) => p.swaps);
-  const amounts = data.series.map((p) => p.amount);
+  const buckets = data.series.map((p) => {
+    const start = p.start_date || p.date;
+    const end = p.end_date || start;
+    const label = start === end ? start : `${start} to ${end}`;
+    return { start, end, label, swaps: p.swaps, amount: p.amount, fee: p.fee };
+  });
+  swapBuckets = buckets;
+  const labels = buckets.map((b) => b.label);
+  const counts = buckets.map((b) => b.swaps);
+  const amounts = buckets.map((b) => b.amount);
   const ctx = chartEl.getContext("2d");
 
   if (swapChart) swapChart.destroy();
@@ -109,6 +126,7 @@ function renderChart(data) {
           borderColor: "rgba(45, 225, 194, 0.8)",
           borderWidth: 1,
           yAxisID: "y1",
+          order: 0,
         },
         {
           type: "line",
@@ -118,6 +136,7 @@ function renderChart(data) {
           backgroundColor: "rgba(124, 93, 250, 0.2)",
           tension: 0.25,
           yAxisID: "y",
+          order: 1,
         },
       ],
     },
@@ -144,10 +163,27 @@ function renderChart(data) {
         legend: { labels: { color: "#e8ecf5" } },
         tooltip: {
           callbacks: {
+            title: (items) => {
+              const item = items?.[0];
+              if (!item) return "";
+              const bucket = swapBuckets?.[item.dataIndex];
+              if (!bucket) return item.label || "";
+              const { start, end } = bucket;
+              return start === end ? start : `${start} – ${end}`;
+            },
             label: function (ctx) {
-              const label = ctx.dataset.label || "";
-              const value = ctx.formattedValue;
-              return `${label}: ${value}`;
+              const bucket = swapBuckets?.[ctx.dataIndex];
+              const span = bucket ? spanDays(bucket.start, bucket.end) : 1;
+              const total = ctx.raw || 0;
+              const isAmount = ctx.dataset.yAxisID === "y1";
+              const decimals = isAmount ? 6 : 2;
+              const avg = total / span;
+              const totalStr = formatNum(total, decimals);
+              const avgStr = formatNum(avg, decimals);
+              if (span > 1) {
+                return `${ctx.dataset.label}: ${totalStr} (avg/day ${avgStr})`;
+              }
+              return `${ctx.dataset.label}: ${totalStr}`;
             },
           },
         },
@@ -193,9 +229,10 @@ async function loadActivity(range) {
 }
 
 function buildActivitySeries(data, activeCats) {
-  const labels = data.series.map((d) => d.date);
+  const labels = [];
   const counts = [];
   const fees = [];
+  const buckets = [];
   data.series.forEach((day) => {
     let dayTx = 0;
     let dayFee = 0;
@@ -204,15 +241,20 @@ function buildActivitySeries(data, activeCats) {
       dayTx += v.tx || 0;
       dayFee += v.fee || 0;
     });
+    const start = day.start_date || day.date;
+    const end = day.end_date || start;
+    labels.push(start === end ? start : `${start} to ${end}`);
     counts.push(dayTx);
     fees.push(dayFee);
+    buckets.push({ start, end, total_tx: dayTx, total_fee: dayFee });
   });
-  return { labels, counts, fees };
+  return { labels, counts, fees, buckets };
 }
 
 function renderActivityChart(data, activeCats) {
   if (!activityChartEl) return;
   const series = buildActivitySeries(data, activeCats);
+  activitySeriesBuckets = series.buckets;
   const denseSeries = series.labels.length > 400;
   const isAllRange = activityRange === "all";
   const feeCap = isAllRange ? percentile(series.fees, 99) : null;
@@ -282,6 +324,31 @@ function renderActivityChart(data, activeCats) {
       },
       plugins: {
         legend: { labels: { color: "#e8ecf5" } },
+        tooltip: {
+          callbacks: {
+            title: (items) => {
+              const item = items?.[0];
+              if (!item) return "";
+              const bucket = activitySeriesBuckets?.[item.dataIndex];
+              if (!bucket) return item.label || "";
+              const { start, end } = bucket;
+              return start === end ? start : `${start} – ${end}`;
+            },
+            label: (ctx) => {
+              const bucket = activitySeriesBuckets?.[ctx.dataIndex];
+              const span = bucket ? spanDays(bucket.start, bucket.end) : 1;
+              const total = ctx.raw || 0;
+              const isFee = ctx.dataset.yAxisID === "y1";
+              const avg = total / span;
+              const totalStr = formatNum(total, isFee ? 6 : 2);
+              const avgStr = formatNum(avg, isFee ? 6 : 2);
+              if (span > 1) {
+                return `${ctx.dataset.label}: ${totalStr} (avg/day ${avgStr})`;
+              }
+              return `${ctx.dataset.label}: ${totalStr}`;
+            },
+          },
+        },
       },
     },
   });

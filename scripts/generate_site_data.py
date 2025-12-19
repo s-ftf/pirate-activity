@@ -65,24 +65,21 @@ def build_activity_series(rows: List[Tuple[str, str, int, float]]) -> Tuple[List
 def aggregate_activity(dates: List[str], per_day: Dict[str, Dict[str, Dict[str, float]]], max_points: int = 180):
     """Bucket daily activity into larger windows (e.g. weekly) so charts stay readable."""
     if len(dates) <= max_points:
-        return dates, per_day
+        return [{"start": d, "end": d, "categories": per_day.get(d, {})} for d in dates]
     bucket_size = math.ceil(len(dates) / max_points)
-    agg_dates: List[str] = []
-    agg_per_day: Dict[str, Dict[str, Dict[str, float]]] = {}
+    buckets = []
     for i in range(0, len(dates), bucket_size):
         window = dates[i : i + bucket_size]
         if not window:
             continue
-        bucket_date = window[0]
-        agg_dates.append(bucket_date)
         bucket: Dict[str, Dict[str, float]] = {}
         for d in window:
             for cat, vals in per_day.get(d, {}).items():
                 slot = bucket.setdefault(cat, {"tx": 0, "fee": 0.0})
                 slot["tx"] += vals.get("tx", 0)
                 slot["fee"] += vals.get("fee", 0.0)
-        agg_per_day[bucket_date] = bucket
-    return agg_dates, agg_per_day
+        buckets.append({"start": window[0], "end": window[-1], "categories": bucket})
+    return buckets
 
 
 def summarize_activity(dates: List[str], per_day: Dict[str, Dict[str, Dict[str, float]]]) -> Dict:
@@ -165,13 +162,26 @@ def write_activity(conn: sqlite3.Connection, outdir: Path, timeframes: List[str]
         sliced = slice_rows(rows, days)
         dates, per_day = build_activity_series(sliced)
         meta = summarize_activity(dates, per_day)
-        series_dates, series_per_day = (aggregate_activity(dates, per_day) if tf == "all" else (dates, per_day))
+        series_buckets = (
+            aggregate_activity(dates, per_day)
+            if tf == "all"
+            else [{"start": d, "end": d, "categories": per_day.get(d, {})} for d in dates]
+        )
         series = []
-        for d in series_dates:
-            day_cats = series_per_day.get(d, {})
+        for bucket in series_buckets:
+            day_cats = bucket.get("categories", {})
             total_tx = sum(v["tx"] for v in day_cats.values())
             total_fee = sum(v["fee"] for v in day_cats.values())
-            series.append({"date": d, "total_tx": total_tx, "total_fee": total_fee, "categories": day_cats})
+            series.append(
+                {
+                    "date": bucket["start"],
+                    "start_date": bucket["start"],
+                    "end_date": bucket["end"],
+                    "total_tx": total_tx,
+                    "total_fee": total_fee,
+                    "categories": day_cats,
+                }
+            )
         out_path = outdir / f"activity_{tf}.json"
         out_path.write_text(json.dumps({"meta": meta, "series": series}, indent=2), encoding="utf-8")
         print(f"Wrote {out_path}")
@@ -266,9 +276,11 @@ def summarize_swaps(rows: List[Tuple[str, int, float, float]], tx_rows: List[Tup
 def aggregate_swaps(rows: List[Tuple[str, int, float, float]], max_points: int = 180) -> List[Tuple[str, int, float, float]]:
     """Bucket daily swap rows so the 'all' chart keeps a sane point count."""
     if len(rows) <= max_points:
-        return rows
+        return [
+            {"start_date": r[0], "end_date": r[0], "swaps": r[1], "amount": r[2], "fee": r[3]} for r in rows
+        ]
     bucket_size = math.ceil(len(rows) / max_points)
-    agg_rows: List[Tuple[str, int, float, float]] = []
+    agg_rows: List[Dict[str, Any]] = []
     for i in range(0, len(rows), bucket_size):
         window = rows[i : i + bucket_size]
         if not window:
@@ -277,7 +289,7 @@ def aggregate_swaps(rows: List[Tuple[str, int, float, float]], max_points: int =
         swaps = sum(r[1] for r in window)
         amount = sum(r[2] for r in window)
         fee = sum(r[3] for r in window)
-        agg_rows.append((date, swaps, amount, fee))
+        agg_rows.append({"start_date": window[0][0], "end_date": window[-1][0], "swaps": swaps, "amount": amount, "fee": fee})
     return agg_rows
 
 
@@ -293,8 +305,25 @@ def write_swaps(conn: sqlite3.Connection, outdir: Path, timeframes: List[str]) -
         end_date = sliced[-1][0] if sliced else None
         tx_rows = load_swaps(conn, start_date, end_date)
         meta = summarize_swaps(sliced, tx_rows)
-        chart_rows = aggregate_swaps(sliced) if tf == "all" else sliced
-        payload = {"meta": meta, "series": [{"date": r[0], "swaps": r[1], "amount": r[2], "fee": r[3]} for r in chart_rows]}
+        chart_rows = (
+            aggregate_swaps(sliced)
+            if tf == "all"
+            else [{"start_date": r[0], "end_date": r[0], "swaps": r[1], "amount": r[2], "fee": r[3]} for r in sliced]
+        )
+        payload = {
+            "meta": meta,
+            "series": [
+                {
+                    "date": r["start_date"],
+                    "start_date": r["start_date"],
+                    "end_date": r["end_date"],
+                    "swaps": r["swaps"],
+                    "amount": r["amount"],
+                    "fee": r["fee"],
+                }
+                for r in chart_rows
+            ],
+        }
         out_path = outdir / f"swaps_{tf}.json"
         out_path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
         print(f"Wrote {out_path}")
