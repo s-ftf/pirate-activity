@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 import sqlite3
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -59,6 +60,29 @@ def build_activity_series(rows: List[Tuple[str, str, int, float]]) -> Tuple[List
         per_day[date][tx_type] = {"tx": tx_count, "fee": total_fee}
     dates.sort()
     return dates, per_day
+
+
+def aggregate_activity(dates: List[str], per_day: Dict[str, Dict[str, Dict[str, float]]], max_points: int = 180):
+    """Bucket daily activity into larger windows (e.g. weekly) so charts stay readable."""
+    if len(dates) <= max_points:
+        return dates, per_day
+    bucket_size = math.ceil(len(dates) / max_points)
+    agg_dates: List[str] = []
+    agg_per_day: Dict[str, Dict[str, Dict[str, float]]] = {}
+    for i in range(0, len(dates), bucket_size):
+        window = dates[i : i + bucket_size]
+        if not window:
+            continue
+        bucket_date = window[0]
+        agg_dates.append(bucket_date)
+        bucket: Dict[str, Dict[str, float]] = {}
+        for d in window:
+            for cat, vals in per_day.get(d, {}).items():
+                slot = bucket.setdefault(cat, {"tx": 0, "fee": 0.0})
+                slot["tx"] += vals.get("tx", 0)
+                slot["fee"] += vals.get("fee", 0.0)
+        agg_per_day[bucket_date] = bucket
+    return agg_dates, agg_per_day
 
 
 def summarize_activity(dates: List[str], per_day: Dict[str, Dict[str, Dict[str, float]]]) -> Dict:
@@ -141,9 +165,10 @@ def write_activity(conn: sqlite3.Connection, outdir: Path, timeframes: List[str]
         sliced = slice_rows(rows, days)
         dates, per_day = build_activity_series(sliced)
         meta = summarize_activity(dates, per_day)
+        series_dates, series_per_day = (aggregate_activity(dates, per_day) if tf == "all" else (dates, per_day))
         series = []
-        for d in dates:
-            day_cats = per_day.get(d, {})
+        for d in series_dates:
+            day_cats = series_per_day.get(d, {})
             total_tx = sum(v["tx"] for v in day_cats.values())
             total_fee = sum(v["fee"] for v in day_cats.values())
             series.append({"date": d, "total_tx": total_tx, "total_fee": total_fee, "categories": day_cats})
@@ -238,6 +263,24 @@ def summarize_swaps(rows: List[Tuple[str, int, float, float]], tx_rows: List[Tup
     }
 
 
+def aggregate_swaps(rows: List[Tuple[str, int, float, float]], max_points: int = 180) -> List[Tuple[str, int, float, float]]:
+    """Bucket daily swap rows so the 'all' chart keeps a sane point count."""
+    if len(rows) <= max_points:
+        return rows
+    bucket_size = math.ceil(len(rows) / max_points)
+    agg_rows: List[Tuple[str, int, float, float]] = []
+    for i in range(0, len(rows), bucket_size):
+        window = rows[i : i + bucket_size]
+        if not window:
+            continue
+        date = window[0][0]
+        swaps = sum(r[1] for r in window)
+        amount = sum(r[2] for r in window)
+        fee = sum(r[3] for r in window)
+        agg_rows.append((date, swaps, amount, fee))
+    return agg_rows
+
+
 def write_swaps(conn: sqlite3.Connection, outdir: Path, timeframes: List[str]) -> None:
     rows = load_daily_swaps(conn)
     if not rows:
@@ -250,7 +293,8 @@ def write_swaps(conn: sqlite3.Connection, outdir: Path, timeframes: List[str]) -
         end_date = sliced[-1][0] if sliced else None
         tx_rows = load_swaps(conn, start_date, end_date)
         meta = summarize_swaps(sliced, tx_rows)
-        payload = {"meta": meta, "series": [{"date": r[0], "swaps": r[1], "amount": r[2], "fee": r[3]} for r in sliced]}
+        chart_rows = aggregate_swaps(sliced) if tf == "all" else sliced
+        payload = {"meta": meta, "series": [{"date": r[0], "swaps": r[1], "amount": r[2], "fee": r[3]} for r in chart_rows]}
         out_path = outdir / f"swaps_{tf}.json"
         out_path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
         print(f"Wrote {out_path}")
@@ -281,12 +325,14 @@ def write_miners(conn: sqlite3.Connection, outdir: Path) -> None:
     rows = cur.fetchall()
     data = []
     for addr, name, txc, amt, last_seen in rows:
+        avg_per_block = amt / txc if txc else 0
         data.append(
             {
                 "address": addr,
                 "name": name,
                 "blocks_mined": txc,
                 "total_arrr": amt,
+                "avg_arrr_per_block": avg_per_block,
                 "last_seen": last_seen,
             }
         )

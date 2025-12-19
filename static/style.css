@@ -309,6 +309,11 @@ h2 {
   text-align: left;
   font-size: 14px;
 }
+.striped-table td.address {
+  font-family: "Roboto Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+}
 .striped-table th {
   color: var(--muted);
   font-weight: 600;

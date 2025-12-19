@@ -34,6 +34,17 @@ function formatNum(n, decimals = 2) {
   });
 }
 
+function percentile(values, p) {
+  if (!values || !values.length) return null;
+  const sorted = [...values].sort((a, b) => a - b);
+  const idx = (sorted.length - 1) * (p / 100);
+  const lo = Math.floor(idx);
+  const hi = Math.ceil(idx);
+  if (lo === hi) return sorted[lo];
+  const weight = idx - lo;
+  return sorted[lo] * (1 - weight) + sorted[hi] * weight;
+}
+
 function updateBadges(meta) {
   if (!summaryBadges) return;
   summaryBadges.innerHTML = "";
@@ -202,6 +213,22 @@ function buildActivitySeries(data, activeCats) {
 function renderActivityChart(data, activeCats) {
   if (!activityChartEl) return;
   const series = buildActivitySeries(data, activeCats);
+  const denseSeries = series.labels.length > 400;
+  const isAllRange = activityRange === "all";
+  const feeCap = isAllRange ? percentile(series.fees, 99) : null;
+  const feeMaxForDisplay = feeCap ? feeCap * 1.1 : null;
+  const chartFees = feeMaxForDisplay ? series.fees.map((f) => Math.min(f, feeMaxForDisplay)) : series.fees;
+  const feeBarOptions = denseSeries
+    ? {
+        // Force a visible thickness when there are thousands of days (e.g. "All" range)
+        barThickness: Math.max(
+          2,
+          Math.floor((activityChartEl.clientWidth || 0) / series.labels.length)
+        ),
+        categoryPercentage: 1,
+        barPercentage: 1,
+      }
+    : {};
   const ctx = activityChartEl.getContext("2d");
   if (activityChart) activityChart.destroy();
   activityChart = new Chart(ctx, {
@@ -212,11 +239,14 @@ function renderActivityChart(data, activeCats) {
         {
           type: "bar",
           label: "Tx fees",
-          data: series.fees,
+          // Clamp extreme outliers on the "All" view so average bars stay visible
+          data: chartFees,
           backgroundColor: "rgba(45, 225, 194, 0.35)",
           borderColor: "rgba(45, 225, 194, 0.8)",
-          borderWidth: 1,
+          borderWidth: denseSeries ? 0 : 1,
           yAxisID: "y1",
+          order: 0,
+          ...feeBarOptions,
         },
         {
           type: "line",
@@ -226,6 +256,7 @@ function renderActivityChart(data, activeCats) {
           backgroundColor: "rgba(124, 93, 250, 0.2)",
           tension: 0.25,
           yAxisID: "y",
+          order: 1,
         },
       ],
     },
@@ -242,6 +273,7 @@ function renderActivityChart(data, activeCats) {
           position: "right",
           ticks: { color: "#e8ecf5" },
           grid: { display: false },
+          max: feeMaxForDisplay || undefined,
         },
         x: {
           ticks: { color: "#e8ecf5", maxRotation: 0, autoSkip: true, maxTicksLimit: 12 },
@@ -460,9 +492,10 @@ async function renderMiners(range = activityRange) {
       .map(
         (m) => `<tr>
           <td>${m.name}</td>
-          <td>${explorerLink(m.address)}</td>
+          <td class="address">${explorerLink(m.address)}</td>
           <td>${formatNum(m.blocks_mined)}</td>
           <td>${formatNum(m.total_arrr, 6)}</td>
+          <td>${formatNum(m.avg_arrr_per_block || 0, 6)}</td>
           <td>${daysAgo(m.last_seen)}</td>
         </tr>`
       )
@@ -471,7 +504,7 @@ async function renderMiners(range = activityRange) {
       <table class="striped-table">
         <thead>
           <tr>
-            <th>Name</th><th>Address</th><th>Blocks mined</th><th>Total ARRR</th><th>Last seen</th>
+            <th>Name</th><th>Address</th><th>Blocks mined</th><th>Total ARRR</th><th>Avg ARRR/block</th><th>Last seen</th>
           </tr>
         </thead>
         <tbody>${rows}</tbody>
@@ -493,7 +526,7 @@ async function renderNotaries(range = activityRange) {
       .map(
         (n) => `<tr>
           <td>${n.name}</td>
-          <td>${explorerLink(n.address)}</td>
+          <td class="address">${explorerLink(n.address)}</td>
           <td>${formatNum(n.tx_count)}</td>
           <td>${formatNum(n.total_arrr, 6)}</td>
           <td>${formatNum(n.total_fee, 6)}</td>

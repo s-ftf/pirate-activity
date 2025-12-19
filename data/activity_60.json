@@ -8,27 +8,27 @@
       "shielded"
     ],
     "totals": {
-      "total_tx": 136159,
-      "total_fees": 6.872646349972125,
-      "avg_tx_per_day": 2269.3166666666666,
-      "avg_fees_per_day": 0.11454410583286874,
+      "total_tx": 136842,
+      "total_fees": 6.446514659974403,
+      "avg_tx_per_day": 2280.7,
+      "avg_fees_per_day": 0.10744191099957338,
       "max_tx_day": {
         "date": "2025-11-10",
         "count": 2831
       },
       "max_fee_day": {
-        "date": "2025-10-18",
-        "fee": 0.38666550999742977
+        "date": "2025-10-29",
+        "fee": 0.2388436600011836
       },
-      "median_tx_per_day": 2284.0,
+      "median_tx_per_day": 2278.5,
       "days": 60
     },
     "per_category": {
       "atomic_swap": {
-        "total_tx": 2539,
-        "total_fees": 0.035199999977507994,
-        "avg_tx_per_day": 42.31666666666667,
-        "avg_fees_per_day": 0.0005866666662917998,
+        "total_tx": 2726,
+        "total_fees": 0.036799999979703624,
+        "avg_tx_per_day": 45.43333333333333,
+        "avg_fees_per_day": 0.0006133333329950604,
         "max_tx_day": {
           "date": "2025-12-07",
           "count": 360
@@ -39,9 +39,9 @@
         }
       },
       "coinbase": {
-        "total_tx": 84717,
+        "total_tx": 85439,
         "total_fees": 0.0,
-        "avg_tx_per_day": 1411.95,
+        "avg_tx_per_day": 1423.9833333333333,
         "avg_fees_per_day": 0.0,
         "max_tx_day": {
           "date": "2025-12-03",
@@ -53,10 +53,10 @@
         }
       },
       "coinbase_shielding": {
-        "total_tx": 7425,
-        "total_fees": 0.7424999999979748,
-        "avg_tx_per_day": 123.75,
-        "avg_fees_per_day": 0.012374999999966246,
+        "total_tx": 7474,
+        "total_fees": 0.7473999999979509,
+        "avg_tx_per_day": 124.56666666666666,
+        "avg_fees_per_day": 0.012456666666632515,
         "max_tx_day": {
           "date": "2025-10-30",
           "count": 149
@@ -67,10 +67,10 @@
         }
       },
       "dpow": {
-        "total_tx": 24240,
-        "total_fees": 3.875656249996643,
-        "avg_tx_per_day": 404.0,
-        "avg_fees_per_day": 0.06459427083327739,
+        "total_tx": 24097,
+        "total_fees": 3.8508645599967517,
+        "avg_tx_per_day": 401.6166666666667,
+        "avg_fees_per_day": 0.06418107599994587,
         "max_tx_day": {
           "date": "2025-10-21",
           "count": 485
@@ -81,103 +81,22 @@
         }
       },
       "shielded": {
-        "total_tx": 17238,
-        "total_fees": 2.219290099999999,
-        "avg_tx_per_day": 287.3,
-        "avg_fees_per_day": 0.036988168333333314,
+        "total_tx": 17106,
+        "total_fees": 1.8114500999999985,
+        "avg_tx_per_day": 285.1,
+        "avg_fees_per_day": 0.030190834999999975,
         "max_tx_day": {
           "date": "2025-11-10",
           "count": 768
         },
         "max_fee_day": {
-          "date": "2025-10-18",
-          "fee": 0.30547999999999914
+          "date": "2025-10-29",
+          "fee": 0.15633999999999904
         }
       }
     }
   },
   "series": [
-    {
-      "date": "2025-10-18",
-      "total_tx": 2309,
-      "total_fee": 0.38666550999742977,
-      "categories": {
-        "atomic_swap": {
-          "tx": 21,
-          "fee": 0.0002999999975052958
-        },
-        "coinbase": {
-          "tx": 1436,
-          "fee": 0.0
-        },
-        "coinbase_shielding": {
-          "tx": 126,
-          "fee": 0.0125999999999713
-        },
-        "dpow": {
-          "tx": 427,
-          "fee": 0.06828550999995404
-        },
-        "shielded": {
-          "tx": 299,
-          "fee": 0.30547999999999914
-        }
-      }
-    },
-    {
-      "date": "2025-10-19",
-      "total_tx": 2269,
-      "total_fee": 0.18102949999935375,
-      "categories": {
-        "atomic_swap": {
-          "tx": 23,
-          "fee": 0.00040999999944485443
-        },
-        "coinbase": {
-          "tx": 1431,
-          "fee": 0.0
-        },
-        "coinbase_shielding": {
-          "tx": 124,
-          "fee": 0.012399999999963773
-        },
-        "dpow": {
-          "tx": 412,
-          "fee": 0.06724949999994462
-        },
-        "shielded": {
-          "tx": 279,
-          "fee": 0.10097000000000052
-        }
-      }
-    },
-    {
-      "date": "2025-10-20",
-      "total_tx": 2247,
-      "total_fee": 0.13475106999965505,
-      "categories": {
-        "atomic_swap": {
-          "tx": 20,
-          "fee": 0.00019999999975655117
-        },
-        "coinbase": {
-          "tx": 1435,
-          "fee": 0.0
-        },
-        "coinbase_shielding": {
-          "tx": 125,
-          "fee": 0.012499999999962208
-        },
-        "dpow": {
-          "tx": 424,
-          "fee": 0.06799106999993605
-        },
-        "shielded": {
-          "tx": 243,
-          "fee": 0.05406000000000025
-        }
-      }
-    },
     {
       "date": "2025-10-21",
       "total_tx": 2256,
@@ -1692,28 +1611,109 @@
     },
     {
       "date": "2025-12-16",
-      "total_tx": 334,
-      "total_fee": 0.013220529999935702,
+      "total_tx": 2184,
+      "total_fee": 0.08368376999914422,
       "categories": {
         "atomic_swap": {
-          "tx": 3,
-          "fee": 2.9999999949514855e-05
+          "tx": 62,
+          "fee": 0.0006199999991965965
         },
         "coinbase": {
-          "tx": 228,
+          "tx": 1440,
           "fee": 0.0
         },
         "coinbase_shielding": {
-          "tx": 20,
-          "fee": 0.001999999999992008
+          "tx": 129,
+          "fee": 0.012899999999964606
         },
         "dpow": {
-          "tx": 52,
-          "fee": 0.00827052999999418
+          "tx": 341,
+          "fee": 0.05311376999998308
         },
         "shielded": {
-          "tx": 31,
-          "fee": 0.002919999999999999
+          "tx": 212,
+          "fee": 0.017049999999999937
+        }
+      }
+    },
+    {
+      "date": "2025-12-17",
+      "total_tx": 2199,
+      "total_fee": 0.08280975000009815,
+      "categories": {
+        "atomic_swap": {
+          "tx": 104,
+          "fee": 0.0010400000001542509
+        },
+        "coinbase": {
+          "tx": 1403,
+          "fee": 0.0
+        },
+        "coinbase_shielding": {
+          "tx": 120,
+          "fee": 0.011999999999951383
+        },
+        "dpow": {
+          "tx": 333,
+          "fee": 0.05298974999999258
+        },
+        "shielded": {
+          "tx": 239,
+          "fee": 0.016779999999999934
+        }
+      }
+    },
+    {
+      "date": "2025-12-18",
+      "total_tx": 1987,
+      "total_fee": 0.0667764099999616,
+      "categories": {
+        "atomic_swap": {
+          "tx": 38,
+          "fee": 0.0003800000000018233
+        },
+        "coinbase": {
+          "tx": 1436,
+          "fee": 0.0
+        },
+        "coinbase_shielding": {
+          "tx": 111,
+          "fee": 0.011099999999969024
+        },
+        "dpow": {
+          "tx": 270,
+          "fee": 0.04352640999999077
+        },
+        "shielded": {
+          "tx": 132,
+          "fee": 0.01176999999999998
+        }
+      }
+    },
+    {
+      "date": "2025-12-19",
+      "total_tx": 1472,
+      "total_fee": 0.056264989999450156,
+      "categories": {
+        "atomic_swap": {
+          "tx": 50,
+          "fee": 0.0004999999994991788
+        },
+        "coinbase": {
+          "tx": 973,
+          "fee": 0.0
+        },
+        "coinbase_shielding": {
+          "tx": 84,
+          "fee": 0.008399999999980423
+        },
+        "dpow": {
+          "tx": 228,
+          "fee": 0.037374989999970576
+        },
+        "shielded": {
+          "tx": 137,
+          "fee": 0.009989999999999978
         }
       }
     }

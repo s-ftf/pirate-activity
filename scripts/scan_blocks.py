@@ -399,6 +399,7 @@ def classify_tx(
     vout_addrs: Set[str],
     notary_lookup: Dict[str, Notary],
     miner_addresses: Set[str],
+    timestamp: Optional[int] = None,
 ) -> Tuple[str, Optional[Notary], Optional[str], Optional[str]]:
     all_addrs = vin_addrs | vout_addrs
 
@@ -442,8 +443,15 @@ def classify_tx(
 
     # Coinbase shielding: transparent inputs (typically miner taddr) -> shielded only outputs
     if shielded and transparent_inputs and not transparent:
+        in_turnstile_window = False
+        if timestamp:
+            dt = datetime.utcfromtimestamp(timestamp)
+            in_turnstile_window = datetime(2018, 12, 15) <= dt <= datetime(2019, 1, 31)
         if vin_addrs & miner_addresses:
             return TxType.COINBASE_SHIELDING, None, None, None
+        if in_turnstile_window:
+            # late-2018 migration event: treat non-miner t->z shielding as turnstile
+            return TxType.TURNSTILE, None, None, None
         # if not miner/notary, treat as unknown transparent shielding
         return TxType.UNKNOWN_TRANSPARENT, None, None, None
 
@@ -836,7 +844,9 @@ def process_block(
         total_in = fetch_input_total(cli, decoded, decoded_cache, persistent_cache)
         fee = compute_fee(total_in, total_out, decoded)
 
-        tx_type, notary, phase, swap_addr = classify_tx(decoded, vin_addrs, vout_addrs, notary_lookup, miner_addresses)
+        tx_type, notary, phase, swap_addr = classify_tx(
+            decoded, vin_addrs, vout_addrs, notary_lookup, miner_addresses, ts
+        )
         if tx_type == TxType.COINBASE:
             store_coinbase(conn, decoded, block_height, ts, pool_lookup, miner_addresses)
         elif tx_type == TxType.COINBASE_SHIELDING:
